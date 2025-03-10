@@ -2,9 +2,16 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+
+    //uses character controller unity function
    private CharacterController controller;
     private Vector3 playerVelocity;
+
+    //checks if player is grounded using unity function
     private bool groundedPlayer;
+
+
+    //variables to hold player speed, strafe speed, constant forward speed, jump height, gravity values. all can be changed in inspector of object
 
     [SerializeField] float playerSpeed = 2.0f;
     [SerializeField] float strafeSpeed = 2.0f;
@@ -14,11 +21,14 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+
+        //uses charactercontroller function unity
         controller = gameObject.AddComponent<CharacterController>();
     }
 
     void Update()
     {
+        //checks if player is grounded, if not sets y velocity to 0 - stops player from double jumping or constantly going up 
         groundedPlayer = controller.isGrounded;
         if(groundedPlayer && playerVelocity.y < 0)
         {
