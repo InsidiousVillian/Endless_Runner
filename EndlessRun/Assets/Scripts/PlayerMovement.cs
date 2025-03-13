@@ -18,7 +18,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float constantForwardSpeed = 5.0f;
     [SerializeField] float jumpHeight = 1.0f;
     [SerializeField] float gravityValue = -9.81f;
-
+    
+    [SerializeField] private GameObject[] obstacles; // Array to hold obstacle references
     private void Start()
     {
 
@@ -32,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
         groundedPlayer = controller.isGrounded;
         if(groundedPlayer && playerVelocity.y < 0)
         {
+            Debug.Log("player cannot jump");
             playerVelocity.y = 0;
         }
 
@@ -53,6 +55,27 @@ public class PlayerMovement : MonoBehaviour
         // Apply gravity
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
+    }
+    // Handle collision with obstacles using CharacterController's built-in method
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        // Check if the collided object is one of the serialized obstacles
+        foreach (GameObject obstacle in obstacles)
+        {
+            if (hit.gameObject == obstacle)
+            {
+                Die();
+                break; // Exit the loop once collision is detected with an obstacle
+            }
+        }
+    }
+
+    // Method to handle player death
+    void Die()
+    {
+        Debug.Log("Player died!");
+        // Destroy the player game object or implement your death logic here
+        Destroy(gameObject);
     }
 }
      
