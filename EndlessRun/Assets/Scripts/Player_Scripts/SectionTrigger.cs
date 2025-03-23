@@ -1,37 +1,37 @@
 using UnityEngine;
-
 public class SectionTrigger : MonoBehaviour
 {
-
-    //field for player to set running section so it can be instatiated, this can be done in inspector
     public GameObject runningSection;
-
-    //sets trigger to be flase at start
+    public float sectionLength = 30f; // Length of each section
     private bool hasTrigger = false;
-
-    /*when player hits trigger / empty game object and 
-    the trigger id false then it will instatiate a new running section 
-    at the location specified*/
-
-
-
-
-
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("trigger") && !hasTrigger)
         {
-            Instantiate(runningSection, new Vector3(1, 0, 28), Quaternion.identity);
+            // Finds the forward position where the next section should spawn
+            Vector3 spawnPosition = transform.position + Vector3.forward * sectionLength;
+            
+            // Keeps the same X and y positions
+            spawnPosition.x = 1;
+            spawnPosition.y = 0;
+            
+            // Instantiate the new section at the calculated position
+            Instantiate(runningSection, spawnPosition, Quaternion.identity);
+            
             hasTrigger = true;
         }
     }
-
+    
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("trigger")){
+        // Resets the trigger when the other object exits
+        if (other.gameObject.CompareTag("trigger"))
+        {
             ResetTrigger();
         }
-    } 
+    }
+    
     public void ResetTrigger()
     {
         hasTrigger = false;
