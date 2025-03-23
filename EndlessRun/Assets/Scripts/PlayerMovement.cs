@@ -69,7 +69,6 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
-
     // Method to handle player death
     void Die()
     {

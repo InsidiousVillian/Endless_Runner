@@ -933,6 +933,7 @@ MonoBehaviour:
   - {fileID: 430106967}
   - {fileID: 2098948291}
   - {fileID: 895128080}
+  - {fileID: 895128080}
 --- !u!54 &1600860730
 Rigidbody:
   m_ObjectHideFlags: 0
