@@ -6,7 +6,7 @@ public class SectionTrigger : MonoBehaviour
 {
     public GameObject runningSection;
     public float sectionLength = 30f; // Length of each section
-    public int sectionsToKeep = 2;
+    public int sectionsToKeep = 1;
     private bool hasTrigger = false;
    
     //used to store sections in a list
