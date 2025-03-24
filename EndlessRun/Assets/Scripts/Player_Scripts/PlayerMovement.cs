@@ -12,12 +12,12 @@ public class PlayerMovement : MonoBehaviour
 
 
     //variables to hold player speed, strafe speed, constant forward speed, jump height, gravity values. all can be changed in inspector of object
-
-    [SerializeField] float playerSpeed = 2.0f;
     [SerializeField] float strafeSpeed = 2.0f;
     [SerializeField] float constantForwardSpeed = 5.0f;
     [SerializeField] float jumpHeight = 1.0f;
     [SerializeField] float gravityValue = -9.81f;
+
+
     
     [SerializeField] private GameObject[] obstacles; // Array to hold obstacle references
     private void Start()
@@ -62,7 +62,8 @@ public class PlayerMovement : MonoBehaviour
         // Check if the collided object is one of the serialized obstacles
         foreach (GameObject obstacle in obstacles)
         {
-            if (hit.gameObject == obstacle)
+            //changed to tag instead since previous version was only using the first obstacles set and when obstalces cloned no tags where being used
+            if (hit.gameObject.CompareTag("obstacle"))
             {
                 Die();
                 break; // Exit the loop once collision is detected with an obstacle
