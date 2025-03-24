@@ -8,6 +8,10 @@ public class SectionTrigger : MonoBehaviour
     public float sectionLength = 30f; // Length of each section
     public int sectionsToKeep = 1;
     private bool hasTrigger = false;
+
+
+    //reference to obj spawner script
+    public RandomObjectSpawner randomObjectSpawner;
    
     //used to store sections in a list
     private static List<GameObject> activeSections = new List<GameObject>();
@@ -31,9 +35,23 @@ public class SectionTrigger : MonoBehaviour
                 activeSections.RemoveAt(0);
                 Destroy(oldestSection);
             }
-           
+
+            // Trigger object spawning (use RandomObjectSpawner to spawn a random object)
+            if (randomObjectSpawner != null)
+            {
+                randomObjectSpawner.SpawnObject();  // Call the method to spawn the object
+                randomObjectSpawner.SpawnObject(); 
+                randomObjectSpawner.SpawnObject(); 
+                randomObjectSpawner.SpawnObject(); 
+            }
+            else
+            {
+                Debug.LogError("RandomObjectSpawner is not assigned in the inspector!");
+            }
+
             hasTrigger = true;
         }
+           
     }
    
     private void OnTriggerExit(Collider other)

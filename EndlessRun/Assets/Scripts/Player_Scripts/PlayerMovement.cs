@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
         groundedPlayer = controller.isGrounded;
         if(groundedPlayer && playerVelocity.y < 0)
         {
-            Debug.Log("player cannot jump");
+            //Debug.Log("player cannot jump");
             playerVelocity.y = 0;
         }
 
