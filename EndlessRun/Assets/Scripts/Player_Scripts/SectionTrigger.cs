@@ -9,6 +9,8 @@ public class SectionTrigger : MonoBehaviour
     public int sectionsToKeep = 1;
     private bool hasTrigger = false;
 
+    int obstacleCount;
+
 
     //reference to obj spawner script
     public RandomObjectSpawner randomObjectSpawner;
@@ -39,10 +41,12 @@ public class SectionTrigger : MonoBehaviour
             // Trigger object spawning (use RandomObjectSpawner to spawn a random object)
             if (randomObjectSpawner != null)
             {
-                randomObjectSpawner.SpawnObject();  // Call the method to spawn the object
-                randomObjectSpawner.SpawnObject(); 
-                randomObjectSpawner.SpawnObject(); 
-                randomObjectSpawner.SpawnObject(); 
+                //number of obstacles per section
+                obstacleCount = Random.Range(4, 4);
+
+                for (int i = 0; i < obstacleCount; i++){
+                    randomObjectSpawner.SpawnObject(spawnPosition, sectionLength);
+                }
             }
             else
             {
