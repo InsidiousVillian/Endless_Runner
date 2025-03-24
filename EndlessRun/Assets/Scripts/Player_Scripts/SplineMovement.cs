@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class SplineMovement : MonoBehaviour
 {
+    [SerializeField] GameObject player;
+    bool isON = true;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,8 +15,11 @@ public class SplineMovement : MonoBehaviour
     {
         
     }
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (isON)
+        {
+            
+        }
     }
 }
