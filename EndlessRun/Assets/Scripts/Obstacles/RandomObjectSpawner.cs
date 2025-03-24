@@ -29,7 +29,7 @@ public class RandomObjectSpawner : MonoBehaviour
 
         // Instantiate the object
         GameObject spawnedObject = Instantiate(myObjects[randomIndex], spawnPosition, Quaternion.identity);
-        
+       
         return spawnedObject;
     }
 }

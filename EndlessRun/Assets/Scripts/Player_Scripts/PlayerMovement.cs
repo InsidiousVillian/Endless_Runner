@@ -17,9 +17,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float jumpHeight = 1.0f;
     [SerializeField] float gravityValue = -9.81f;
 
+    [SerializeField] private GameObject[] obstacles;  // lowercase 'o'
 
-    
-    [SerializeField] private GameObject[] obstacles; // Array to hold obstacle references
+
     private void Start()
     {
 
