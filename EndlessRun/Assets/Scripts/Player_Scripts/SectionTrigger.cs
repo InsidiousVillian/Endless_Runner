@@ -59,7 +59,7 @@ public class SectionTrigger : MonoBehaviour
         // Spawn obstacles if RandomObjectSpawner is assigned
         if (randomObjectSpawner != null)
         {
-            obstacleCount = Random.Range(3, 4); // Adjust range as needed
+            obstacleCount = Random.Range(3, 5); // Adjust range as needed
             Debug.Log("Spawning " + obstacleCount + " obstacles");
 
             for (int i = 0; i < obstacleCount; i++)
