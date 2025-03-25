@@ -22,15 +22,15 @@ Make sure you have the following installed:
 
     Unity version 6 and above
 
-    Visual Studio or another IDE for C# (if applicable)
+    Visual Studios, VSCode etc
 
 Steps
 
     Clone the repository:
 
-    git clone https://github.com/yourusername/Western-Endless-Runner.git
+    git clone https://github.com/yourusername/Endless-Runner.git
 
-    Open the project in your game engine (e.g., Unity).
+    Open the project in unity.
 
     Run the game through your editor or build it for your desired platform.
 
