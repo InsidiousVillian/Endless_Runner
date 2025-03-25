@@ -31,43 +31,70 @@ public class RandomObjectSpawner : MonoBehaviour
         }
     }
 
-    public GameObject SpawnObject(Vector3 sectionStartPosition, float sectionLength)
+   public GameObject SpawnObject(Vector3 sectionStartPosition, float sectionLength)
+{
+    // checks input
+    if (myObjects == null || myObjects.Length == 0)
     {
-        // Validate input
-        if (myObjects == null || myObjects.Length == 0)
-        {
-            Debug.LogError("No objects available to spawn!");
-            return null;
-        }
+        Debug.LogError("No objects available to spawn!");
+        return null;
+    }
 
-        Debug.Log($"Spawning object. Current objects in list: {spawnedObjectsList.Count}");
+    // Minimum distance between each obstacles, this value can be tweaked 
+    float minSpawnDistance = 2f; 
 
+    // Maximum attempts to find a valid spawn position
+    int maxAttempts = 10;
+    for (int attempt = 0; attempt < maxAttempts; attempt++)
+    {
         // Chooses a random obstacle
         int randomIndex = Random.Range(0, myObjects.Length);
         GameObject selectedPrefab = myObjects[randomIndex];
-        
-        Debug.Log($"Selected object to spawn: {selectedPrefab.name}");
-        
-        // Randomize the spawn distance along the Z-axis, but ensure it's spread out
+       
+        // Randomise the spawn distance along the Z-axis, but ensure it's spread out
         float distanceZ = Random.Range(minDistanceFromStart, Mathf.Min(maxDistanceFromStart, sectionLength - 5f));
-        
-        // Randomize X position within the defined range
+       
+        // Randomise X position within the defined range
         float distanceX = Random.Range(minXPosition, maxXPosition);
-        
+       
         // Calculate the spawn position relative to section start
         Vector3 spawnPosition = sectionStartPosition + new Vector3(distanceX, 0, distanceZ);
-        
-        // Ensure Y position is set to 0 (or whatever height you want for ground level)
+       
+        // Ensures Y position is set to 0
         spawnPosition.y = 0f;
-        
-        // Instantiate the object
-        GameObject spawnedObject = Instantiate(selectedPrefab, spawnPosition, Quaternion.identity);
-        
-        // Add the spawned object to the list
-        AddSpawnedObject(spawnedObject);
-        
-        return spawnedObject;
+
+        // Check distance from previously spawned objects
+        bool isValidSpawn = true;
+        foreach (GameObject existingObject in spawnedObjectsList)
+        {
+            if (existingObject != null)
+            {
+                float distance = Vector3.Distance(spawnPosition, existingObject.transform.position);
+                if (distance < minSpawnDistance)
+                {
+                    isValidSpawn = false;
+                    break;
+                }
+            }
+        }
+
+        // If spawn position is valid, spawn the object
+        if (isValidSpawn)
+        {
+            GameObject spawnedObject = Instantiate(selectedPrefab, spawnPosition, Quaternion.identity);
+            
+            // Destroy the object after 2 seconds
+            Destroy(spawnedObject, 2f);
+            
+            AddSpawnedObject(spawnedObject);
+            return spawnedObject;
+        }
     }
+
+    // If we couldn't find a valid spawn position after max attempts
+    Debug.LogWarning("Could not find a valid spawn position for obstacle");
+    return null;
+} 
 
     private void AddSpawnedObject(GameObject spawnedObject)
     {
