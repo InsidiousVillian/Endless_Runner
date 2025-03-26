@@ -10,6 +10,9 @@ public class PlayerMovement : MonoBehaviour
     //checks if player is grounded using unity function
     private bool groundedPlayer;
 
+    public GameManager gameManager;
+
+    private bool isDead;
 
     //variables to hold player speed, strafe speed, constant forward speed, jump height, gravity values. all can be changed in inspector of object
     [SerializeField] float strafeSpeed = 2.0f;
@@ -63,19 +66,22 @@ public class PlayerMovement : MonoBehaviour
         foreach (GameObject obstacle in obstacles)
         {
             //changed to tag instead since previous version was only using the first obstacles set and when obstalces cloned no tags where being used
-            if (hit.gameObject.CompareTag("obstacle"))
+            if (hit.gameObject.CompareTag("obstacle") && !isDead)
             {
                 Die();
-                break; // Exit the loop once collision is detected with an obstacle
+                //break; // Exit the loop once collision is detected with an obstacle
+                gameManager.gameOver();
             }
         }
     }
     // Method to handle player death
     void Die()
     {
+        isDead = true;
+        gameManager.gameOver();
         Debug.Log("Player died!");
         // Destroy the player game object or implement your death logic here
-        Destroy(gameObject);
+        Destroy(gameObject);    
     }
 }
      
