@@ -15,6 +15,13 @@ public class GameManager : MonoBehaviour
 
     }
 
-    
-
+    public void MainMenu(){
+        SceneManager.LoadScene("MainMenu");
+    }
+    public void Quit(){
+        Application.Quit();
+    }
+    public void Play(){
+        SceneManager.LoadScene("SampleScene");
+    }
 }
