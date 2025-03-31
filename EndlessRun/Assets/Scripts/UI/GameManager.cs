@@ -22,6 +22,6 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
     public void Play(){
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Level");
     }
 }
