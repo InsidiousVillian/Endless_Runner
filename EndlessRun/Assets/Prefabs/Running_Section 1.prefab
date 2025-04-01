@@ -1738,6 +1738,7 @@ MonoBehaviour:
   maxDistanceFromStart: 15
   minXPosition: -3
   maxXPosition: 3
+  objectsToKeep: 4
 --- !u!1 &8628215343120595914
 GameObject:
   m_ObjectHideFlags: 0
@@ -1858,6 +1859,7 @@ GameObject:
   - component: {fileID: 5811017561992092260}
   - component: {fileID: 3311731898196506172}
   - component: {fileID: 3105984993864191}
+  - component: {fileID: 8599866784237320638}
   m_Layer: 0
   m_Name: Running_Section 1
   m_TagString: trigger
@@ -1961,6 +1963,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &8599866784237320638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8911482226467377964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1d24ed9827b13f479a0c8c032ba598e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Running_section: {fileID: 8911482226467377964}
 --- !u!1 &8988262926309153492
 GameObject:
   m_ObjectHideFlags: 0
