@@ -4281,7 +4281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 1029153476}
   strafeSpeed: 10
-  constantForwardSpeed: 20
+  constantForwardSpeed: 30
   jumpHeight: 1
   gravityValue: -9.81
   obstacles:
