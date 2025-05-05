@@ -1,16 +1,27 @@
+using System.Runtime.CompilerServices;
+using UnityEditor.Callbacks;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public float speed = 20f;
+    private Rigidbody body;
+   
     void Start()
     {
-        
+        //gets rigidbody component
+        body = GetComponent<Rigidbody>();
+        body.velocity = transform.forward * speed;
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerEnter(Collider other)
     {
-        
+        if(other.CompareTag("obstacle")){
+            //destroys obstacle
+            Destroy(other.gameObject);
+            //destroys bullet
+            Destroy(this.gameObject);
+        }
     }
+
 }
