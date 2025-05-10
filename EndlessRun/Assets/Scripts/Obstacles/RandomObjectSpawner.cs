@@ -86,7 +86,7 @@ public class RandomObjectSpawner : MonoBehaviour
             //assigns random object picked to selected prefab variable under type Gameobject so we can spawn obj
             GameObject selectedPrefab = myObjects[randomIndex];
        
-            // Randomise the spawn distance along the Z-axis, but ensure it's spread out
+            // Randomise the spawn distance along the Z-axis, but ensure it's spread out - done to avoid obstacles dont spawn dont go beyond section length
             float distanceZ = Random.Range(minDistanceFromStart, Mathf.Min(maxDistanceFromStart, sectionLength - 5f));
        
             // Randomise X position within the defined range
@@ -95,10 +95,10 @@ public class RandomObjectSpawner : MonoBehaviour
             // Calculate the spawn position relative to section start
             Vector3 spawnPosition = sectionStartPosition + new Vector3(distanceX, 0, distanceZ);
        
-            // Ensures Y position is set to 0
+            // Ensures Y position is set to 0 (donq so obstacles odnt spawn mid air)
             spawnPosition.y = 0f;
 
-             // Check distance from previously spawned objects
+
             bool isValidSpawn = true;
             foreach (GameObject existingObject in spawnedObjectsList)
             {
@@ -116,21 +116,23 @@ public class RandomObjectSpawner : MonoBehaviour
             // If spawn position is valid, spawn the object
             if (isValidSpawn)
             {
+                //will spawn the randomly chosen obstacle - in the chosen spawn position and we stop the rotation so that obj doesnt spawn rotated 
                 GameObject spawnedObject = Instantiate(selectedPrefab, spawnPosition, Quaternion.identity);
             
-                // Destroy the object after 2 seconds
+                // Destroy the object after 2 seconds - this is hardcoded but can be changed later on 
                 Destroy(spawnedObject, 2f);
             
                 AddSpawnedObject(spawnedObject);
                 return spawnedObject;
             }
         }
-
         // If we couldn't find a valid spawn position after max attempts
         Debug.LogWarning("Could not find a valid spawn position for obstacle");
         return null;
     } 
 
+
+    // prevents overspawning of obstacles - helps with spawn spacing 
     private void AddSpawnedObject(GameObject spawnedObject)
     {
         Debug.Log($"Adding spawned object. Before count: {spawnedObjectsList.Count}");
@@ -147,8 +149,9 @@ public class RandomObjectSpawner : MonoBehaviour
                 Destroy(oldestObject);
             }
         }
+        
 
-        // Add the new object
+        // Add the new object to the list
         spawnedObjectsList.Add(spawnedObject);
 
         Debug.Log($"After adding object. Final count: {spawnedObjectsList.Count}");
