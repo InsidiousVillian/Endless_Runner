@@ -3644,6 +3644,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9783ece55bd8cf34d83a74b1dfe092cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myItems:
+  - {fileID: 8886102179766774899, guid: 557f2d4e4e7464e4595599cd0b31cf25, type: 3}
+  minDistanceFromStart: 7
+  maxDistanceFromStart: 15
+  minXPosition: -3
+  maxXPosition: 3
+  itemToKeep: 3
 --- !u!4 &1323451834
 Transform:
   m_ObjectHideFlags: 0
@@ -3652,12 +3659,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1323451832}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.80537415, y: -2.2857826, z: 3.4572413}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.14565246, y: -2.2857826, z: 4.6799135}
+  m_LocalScale: {x: 0.7483716, y: 1, z: 0.14914043}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1899494627}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1324827831
 PrefabInstance:
@@ -5425,6 +5432,10 @@ PrefabInstance:
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4415607267997019761, guid: f0ade929a7d67354aa11ebe4cd0a672f, type: 3}
+      propertyPath: randomItemSpawner
+      value: 
+      objectReference: {fileID: 1323451833}
+    - target: {fileID: 4415607267997019761, guid: f0ade929a7d67354aa11ebe4cd0a672f, type: 3}
       propertyPath: randomObjectSpawner
       value: 
       objectReference: {fileID: 795472440}
@@ -5452,6 +5463,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: d22e6c784fcf9e34381dcb7d733dc77c, type: 2}
+    - target: {fileID: 8056421011032649684, guid: f0ade929a7d67354aa11ebe4cd0a672f, type: 3}
+      propertyPath: objectsToKeep
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8056421011032649684, guid: f0ade929a7d67354aa11ebe4cd0a672f, type: 3}
       propertyPath: maxDistanceFromStart
       value: 10
@@ -5502,6 +5517,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 699001030970825700, guid: f0ade929a7d67354aa11ebe4cd0a672f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 985314861}
+    - targetCorrespondingSourceObject: {fileID: 699001030970825700, guid: f0ade929a7d67354aa11ebe4cd0a672f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1323451834}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0ade929a7d67354aa11ebe4cd0a672f, type: 3}
 --- !u!1660057539 &9223372036854775807
@@ -5517,4 +5535,3 @@ SceneRoots:
   - {fileID: 1374048232}
   - {fileID: 1029153475}
   - {fileID: 5997657617376039735}
-  - {fileID: 1323451834}
