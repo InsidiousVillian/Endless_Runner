@@ -20,9 +20,10 @@ public class MasterInfo : MonoBehaviour
     {
         if (bottleCount >= 0) 
         {
+            //displays bottle count 
             bottleDisplay.GetComponent<TMPro.TMP_Text>().text = "Bottles:" + bottleCount;
-            gunDisplay.GetComponent<TMPro.TMP_Text>().text = "Guns:" + ItemPickup.guns.Count;
-            
+            //display guns using itemPickup list
+            gunDisplay.GetComponent<TMPro.TMP_Text>().text = "Guns:" + ItemPickup.guns.Count;   
         }
         
     }

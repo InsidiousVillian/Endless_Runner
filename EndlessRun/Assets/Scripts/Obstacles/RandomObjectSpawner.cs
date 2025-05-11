@@ -17,7 +17,7 @@ public class RandomObjectSpawner : MonoBehaviour
         // Debug check for objects
         if (myObjects == null || myObjects.Length == 0)
         {
-            Debug.LogError("NO OBJECTS CONFIGURED IN RANDOM OBJECT SPAWNER! Please add objects to the myObjects array in the inspector.");
+            Debug.LogError("NO OBJECTS CONFIGURED IN RANDOM OBJECT SPAWNER!");
         }
         else
         {
