@@ -11,6 +11,8 @@ public class SectionTrigger : MonoBehaviour
 
     int obstacleCount;
 
+    public RandomItemSpawner randomItemSpawner;
+
 
     //reference to obj spawner script
     public RandomObjectSpawner randomObjectSpawner;
@@ -71,6 +73,22 @@ public class SectionTrigger : MonoBehaviour
         {
             Debug.LogError("RandomObjectSpawner is not assigned in the inspector!");
         }
+
+        if (randomItemSpawner != null)
+        {
+            int itemCount = Random.Range(1, 3);
+            Debug.Log("Spawning " + itemCount + " items");
+
+            for (int i = 0; i < itemCount; i++)
+            {
+                randomItemSpawner.SpawnItem(spawnPosition, sectionLength);
+            }
+        }
+        else
+        {
+            Debug.LogError("something wrong with randomItem");
+        }
+
 
         // Set hasTrigger to true to prevent spawning the section multiple times
         hasTrigger = true;
