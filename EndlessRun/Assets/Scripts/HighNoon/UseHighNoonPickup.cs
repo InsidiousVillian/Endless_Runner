@@ -1,0 +1,36 @@
+using Unity.Mathematics;
+using UnityEngine;
+
+public class UseHighNoonPickup : MonoBehaviour
+{
+    public GameObject HighNoonItem;
+    public HighNoonEffect highNoonEffect;
+
+    // Update is called once per frame
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Q)){
+            UseHighNoon();
+        }
+    }
+
+    void UseHighNoon()
+    {
+        if(HighNoonPickup.highNoonList.Count > 0){
+            HighNoonItem = HighNoonPickup.highNoonList[0];
+            Debug.Log("using high noon");
+
+            HighNoonPickup.highNoonList.RemoveAt(0);
+
+            if(highNoonEffect != null){
+                highNoonEffect.TriggerHighNoon();
+            }
+            else{
+                Debug.LogError("not set");
+            }
+        }
+        else{
+            Debug.LogError("Item not being used");
+        }
+    }
+}
