@@ -7,9 +7,6 @@ public class PlayerMovement : MonoBehaviour
    private CharacterController controller;
     private Vector3 playerVelocity;
 
-    //checks if player is grounded using unity function
-    private bool groundedPlayer;
-
     public GameManager gameManager;
 
     private bool isDead;
@@ -32,14 +29,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        //checks if player is grounded, if not sets y velocity to 0 - stops player from double jumping or constantly going up 
-        groundedPlayer = controller.isGrounded;
-        if(groundedPlayer && playerVelocity.y < 0)
-        {
-            //Debug.Log("player cannot jump");
-            playerVelocity.y = 0;
-        }
-
+      
         // Get only horizontal (left/right) input
         float horizontalInput = Input.GetAxis("Horizontal");
         
@@ -49,12 +39,7 @@ public class PlayerMovement : MonoBehaviour
         // Apply movement
         controller.Move(move * Time.deltaTime);
 
-        // Handle jumping
-        if (Input.GetButtonDown("Jump") && groundedPlayer)
-        {
-            playerVelocity.y += Mathf.Sqrt(jumpHeight * -2.0f * gravityValue);
-        }
-
+    
         // Apply gravity
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);

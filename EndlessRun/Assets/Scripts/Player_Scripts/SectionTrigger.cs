@@ -8,11 +8,13 @@ public class SectionTrigger : MonoBehaviour
     public float sectionLength = 30f; // Length of each section
     public int sectionsToKeep = 2;
     private bool hasTrigger = false;
+    private bool hasSpawnedHighNoon = false;
 
     int obstacleCount;
 
     public RandomItemSpawner randomItemSpawner;
 
+    public RandomHighNewSpawner randomHighNoonSpawner;
 
     //reference to obj spawner script
     public RandomObjectSpawner randomObjectSpawner;
@@ -89,6 +91,14 @@ public class SectionTrigger : MonoBehaviour
             Debug.LogError("something wrong with randomItem");
         }
 
+        if(randomHighNoonSpawner != null){
+            randomHighNoonSpawner.SpawnItem(spawnPosition, sectionLength);
+            hasSpawnedHighNoon = true;
+        }
+        else{
+            Debug.LogError("high noon not spawning");
+        }
+
 
         // Set hasTrigger to true to prevent spawning the section multiple times
         hasTrigger = true;
@@ -115,6 +125,7 @@ public class SectionTrigger : MonoBehaviour
     public void ResetTrigger()
     {
         hasTrigger = false;
+        hasSpawnedHighNoon = false;
     }
     
     /*destroys all active sections and clears tracking list*/
