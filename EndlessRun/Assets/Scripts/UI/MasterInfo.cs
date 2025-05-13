@@ -4,6 +4,7 @@ public class MasterInfo : MonoBehaviour
 {
     [SerializeField] GameObject bottleDisplay;
     [SerializeField] GameObject gunDisplay;
+    [SerializeField] GameObject highNoonDisplay;
     public static int bottleCount = 0;
     private void Start()
     {
@@ -14,6 +15,9 @@ public class MasterInfo : MonoBehaviour
         if(ItemPickup.guns != null){
             ItemPickup.guns.Clear();
         }
+        if(HighNoonPickup.highNoonList != null){
+            HighNoonPickup.highNoonList.Clear();
+        }
     }
     // Update is called once per frame
     void Update()
@@ -23,8 +27,9 @@ public class MasterInfo : MonoBehaviour
             //displays bottle count 
             bottleDisplay.GetComponent<TMPro.TMP_Text>().text = "Bottles:" + bottleCount;
             //display guns using itemPickup list
-            gunDisplay.GetComponent<TMPro.TMP_Text>().text = "Guns:" + ItemPickup.guns.Count;   
-        }
-        
+            gunDisplay.GetComponent<TMPro.TMP_Text>().text = "Guns:" + ItemPickup.guns.Count;
+            //displays High noon using list
+            highNoonDisplay.GetComponent<TMPro.TMP_Text>().text = "High Noon:" + HighNoonPickup.highNoonList.Count;
+        }      
     }
 }
