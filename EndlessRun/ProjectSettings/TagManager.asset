@@ -8,6 +8,7 @@ TagManager:
   - trigger
   - obstacle
   - SplineTrigger
+  - Spline
   layers:
   - Default
   - TransparentFX
