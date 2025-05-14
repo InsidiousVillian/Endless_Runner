@@ -95,7 +95,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
+<<<<<<< Updated upstream
       "version": "17.0.3",
+=======
+      "version": "17.0.4",
+>>>>>>> Stashed changes
       "depth": 1,
       "source": "builtin",
       "dependencies": {
@@ -110,12 +114,21 @@
       }
     },
     "com.unity.render-pipelines.universal": {
+<<<<<<< Updated upstream
       "version": "17.0.3",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.render-pipelines.core": "17.0.3",
         "com.unity.shadergraph": "17.0.3",
+=======
+      "version": "17.0.4",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "17.0.4",
+        "com.unity.shadergraph": "17.0.4",
+>>>>>>> Stashed changes
         "com.unity.render-pipelines.universal-config": "17.0.3"
       }
     },
@@ -152,12 +165,21 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
+<<<<<<< Updated upstream
       "version": "17.0.3",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.render-pipelines.core": "17.0.3",
         "com.unity.searcher": "4.9.2"
+=======
+      "version": "17.0.4",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "17.0.4",
+        "com.unity.searcher": "4.9.3"
+>>>>>>> Stashed changes
       }
     },
     "com.unity.splines": {
