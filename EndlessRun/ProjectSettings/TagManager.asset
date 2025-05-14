@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Generation_trigger
   - trigger
+  - obstacle
+  - SplineTrigger
   layers:
   - Default
   - TransparentFX
