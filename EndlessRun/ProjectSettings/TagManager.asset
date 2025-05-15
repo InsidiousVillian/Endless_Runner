@@ -9,6 +9,7 @@ TagManager:
   - obstacle
   - SplineTrigger
   - Spline
+  - Bottle
   layers:
   - Default
   - TransparentFX
