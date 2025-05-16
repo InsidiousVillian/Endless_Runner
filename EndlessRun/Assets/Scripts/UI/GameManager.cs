@@ -5,6 +5,7 @@ public class GameManager : MonoBehaviour
 {
     public GameObject gameOverUI;
 
+    
     public void gameOver(){
         gameOverUI.SetActive(true);
     }
@@ -25,4 +26,6 @@ public class GameManager : MonoBehaviour
     public void Play(){
         SceneManager.LoadScene(1);
     }
+
+
 }

@@ -7,6 +7,7 @@ public class MasterInfo : MonoBehaviour
     [SerializeField] GameObject highNoonDisplay;
     public static int bottleCount = 0;
 
+
     private void Start()
     {
         Debug.LogError(this.name   + "HELL"     );
@@ -19,7 +20,7 @@ public class MasterInfo : MonoBehaviour
         if(HighNoonPickup.highNoonList != null){
             HighNoonPickup.highNoonList.Clear();
         }
-    }
+    }  
     // Update is called once per frame
     void Update()
     {
