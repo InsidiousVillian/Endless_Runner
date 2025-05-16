@@ -10,8 +10,8 @@ public class GameManager : MonoBehaviour
     }
 
     public void restart(){
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //SceneManager.LoadScene(1);
 
 
     }
