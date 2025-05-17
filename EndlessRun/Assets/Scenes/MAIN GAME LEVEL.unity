@@ -4053,7 +4053,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myItems:
-  - {fileID: 8886102179766774899, guid: 557f2d4e4e7464e4595599cd0b31cf25, type: 3}
+  - {fileID: 1875512870411640145, guid: 2920d30fb34f3b3499a57d3ca5b31470, type: 3}
   minDistanceFromStart: 7
   maxDistanceFromStart: 15
   minXPosition: -3
@@ -5039,7 +5039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ffe46cd23c8d4b4aa88bd9872d15a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemToUse: {fileID: 2012662988}
+  itemToUse: {fileID: 1875512870411640145, guid: 2920d30fb34f3b3499a57d3ca5b31470, type: 3}
   Bullet: {fileID: 8017619248592842461, guid: 24cecbce00e9b1c44b10cf5b933fc326, type: 3}
   bulletSpawner: {fileID: 141879468}
 --- !u!114 &1600860732
@@ -6630,6 +6630,71 @@ PrefabInstance:
       addedObject: {fileID: 977133032}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0ade929a7d67354aa11ebe4cd0a672f, type: 3}
+--- !u!1001 &8426518845729084576
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1246645698271594475, guid: 2920d30fb34f3b3499a57d3ca5b31470, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246645698271594475, guid: 2920d30fb34f3b3499a57d3ca5b31470, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246645698271594475, guid: 2920d30fb34f3b3499a57d3ca5b31470, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246645698271594475, guid: 2920d30fb34f3b3499a57d3ca5b31470, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7258181
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246645698271594475, guid: 2920d30fb34f3b3499a57d3ca5b31470, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246645698271594475, guid: 2920d30fb34f3b3499a57d3ca5b31470, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6878868
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246645698271594475, guid: 2920d30fb34f3b3499a57d3ca5b31470, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246645698271594475, guid: 2920d30fb34f3b3499a57d3ca5b31470, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246645698271594475, guid: 2920d30fb34f3b3499a57d3ca5b31470, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 273.074
+      objectReference: {fileID: 0}
+    - target: {fileID: 1246645698271594475, guid: 2920d30fb34f3b3499a57d3ca5b31470, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875512870411640145, guid: 2920d30fb34f3b3499a57d3ca5b31470, type: 3}
+      propertyPath: m_Name
+      value: Gun (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2966804915106726005, guid: 2920d30fb34f3b3499a57d3ca5b31470, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867006042672958963, guid: 2920d30fb34f3b3499a57d3ca5b31470, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 1875512870411640145, guid: 2920d30fb34f3b3499a57d3ca5b31470, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2920d30fb34f3b3499a57d3ca5b31470, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -6646,3 +6711,4 @@ SceneRoots:
   - {fileID: 4066518168808579882}
   - {fileID: 1711744871}
   - {fileID: 4996987775465019989}
+  - {fileID: 8426518845729084576}
