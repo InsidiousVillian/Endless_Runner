@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEditor;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,8 +10,12 @@ public class GameManager : MonoBehaviour
         gameOverUI.SetActive(true);
     }
 
-    public void restart(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    [MenuItem("Helpers/Restart Scene #R")]
+    private static void restart()
+    {
+        var currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.name);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         //SceneManager.LoadScene(1);
 
 
