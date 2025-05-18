@@ -22442,7 +22442,6 @@ GameObject:
   - component: {fileID: 1636638056}
   - component: {fileID: 1636638057}
   - component: {fileID: 1636638059}
-  - component: {fileID: 1636638060}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -22508,19 +22507,6 @@ MonoBehaviour:
   MasterInfo: {fileID: 1636638057}
   bottleCount: 0
   maxBottleCount: 30
---- !u!114 &1636638060
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1636638055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ca0f51843af27544b122e08302d625d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 0}
 --- !u!1001 &1650148644
 PrefabInstance:
   m_ObjectHideFlags: 0
