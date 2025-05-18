@@ -46,16 +46,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72688c39ef8dfe2479aa841fd7ba7874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnpoints:
+  enemyPrefabs: []
+  minSpawnInterval: 1
+  maxSpawnInterval: 3
+  spawnPoints:
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  enemyPrefab: {fileID: 8702267591608313500}
-  spawnTimer: 10
-  spawnInterval: 5
-  canSpawn: 1
 --- !u!114 &-4772521446398213319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,11 +158,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72688c39ef8dfe2479aa841fd7ba7874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnpoints: []
-  enemyPrefab: {fileID: 0}
-  spawnTimer: 0
-  spawnInterval: 5
-  canSpawn: 0
+  enemyPrefabs: []
+  minSpawnInterval: 1
+  maxSpawnInterval: 3
+  spawnPoints: []
 --- !u!4 &3140660260202664338 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3ba5df55de38cf04d86504dab0da7464, type: 3}

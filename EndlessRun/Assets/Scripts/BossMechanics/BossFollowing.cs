@@ -4,36 +4,42 @@ using UnityEngine.Rendering;
 
 public class BossFollowing : MonoBehaviour
 {
-    public List<Transform> spawnpoints;
-    public GameObject enemyPrefab;
-    public float spawnTimer = 0f;
-    public float spawnInterval = 5f;
-    public bool canSpawn;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] private GameObject[] enemyPrefabs;
+    [SerializeField] private float minSpawnInterval = 1f;
+    [SerializeField] private float maxSpawnInterval = 3f;
+    [SerializeField] private List<GameObject> spawnPoints;
+
+    private float nextSpawnTime;
+
     void Start()
     {
-        
+        // Set initial spawn time
+        nextSpawnTime = Time.fixedTime + Random.Range(minSpawnInterval, maxSpawnInterval);
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
-        if (!canSpawn) return;
-        spawnTimer += Time.fixedDeltaTime;
-        if (spawnTimer >= spawnInterval) 
+        if (Time.fixedTime >= nextSpawnTime)
         {
             SpawnEnemy();
-            spawnTimer = 0f;
+
+            // Calculate next spawn time
+            nextSpawnTime = Time.fixedTime + Random.Range(minSpawnInterval, maxSpawnInterval);
         }
-        
     }
 
-    void SpawnEnemy()
+    private void SpawnEnemy()
     {
-        if(spawnpoints.Count == 0) return;
+        // Select random enemy prefab
+        GameObject enemyPrefab = enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
+
+        // Select random spawn point
+        GameObject spawnPoint = spawnPoints[Random.Range(0, 9)];
+
+        // Spawn enemy
+        var go = Instantiate(enemyPrefab);
+        go.SetActive(false);
+        spawnPoints.Add(go);
         
-        Transform spawnPoint = spawnpoints[Random.Range(0, spawnpoints.Count)];
-        Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.localRotation);
-        Debug.Log($"Enemy spawned at {spawnPoint.position}");
     }
 }
