@@ -4,19 +4,30 @@ public class EnemyAI : MonoBehaviour
 {
     public Transform player;
     public float moveSpeed = 3f;
+    public float timer = 0f;
+    public float delay = 3f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        transform.LookAt(PlayerMovement.instance.transform);
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        if (player != null) 
+        if (player == null) return;
+
+        timer += Time.fixedDeltaTime;
+        if(timer >= delay)
         {
-            Vector3 direction = (player.position - transform.position).normalized;
-            GetComponent<Rigidbody>().MovePosition(transform.position + direction * moveSpeed * Time.fixedDeltaTime);
+            // Move towards the player
+            transform.position = Vector3.MoveTowards(
+                transform.position,
+                player.position,
+                moveSpeed * Time.deltaTime
+            );
+            
         }
+        
     }
 }

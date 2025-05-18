@@ -402,6 +402,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MasterInfo: {fileID: 1029153477}
   bottleCount: 0
+  maxBottleCount: 20
 --- !u!1 &141879468
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,7 +573,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a174c7c4484a77847bfe4aa5616b38ee, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Bottle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4713,6 +4714,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MasterInfo: {fileID: 1029153477}
   bottleCount: 0
+<<<<<<< HEAD
+=======
+  maxBottleCount: 20
+--- !u!1 &1514348235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7551862035506210506, guid: b5952025bafa5d449baddc1092e0d56c, type: 3}
+  m_PrefabInstance: {fileID: 4066518168808579882}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> NewKian
 --- !u!1001 &1581537477
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4854,6 +4864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MasterInfo: {fileID: 1029153477}
   bottleCount: 0
+  maxBottleCount: 20
 --- !u!4 &1582243427 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1882061928368989805, guid: 9d815b9999bfa4e45a8639a6f090e6db, type: 3}
@@ -5071,6 +5082,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MasterInfo: {fileID: 1029153477}
   bottleCount: 0
+  maxBottleCount: 20
 --- !u!1001 &1628557381
 PrefabInstance:
   m_ObjectHideFlags: 0

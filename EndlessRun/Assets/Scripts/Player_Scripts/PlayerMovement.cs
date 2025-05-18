@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float constantForwardSpeed = 5.0f;
     [SerializeField] float jumpHeight = 1.0f;
     [SerializeField] float gravityValue = -9.81f;
-
+    public static PlayerMovement instance;  
     [SerializeField] private GameObject[] obstacles;  // lowercase 'o'
 
 
