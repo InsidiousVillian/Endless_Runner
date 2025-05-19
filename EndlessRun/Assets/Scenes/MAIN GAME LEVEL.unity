@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 0.509434, g: 0.47461513, b: 0.33882165, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.142
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: ff059fc016fcf8d4a88162b27e334cba, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -4715,11 +4715,6 @@ MonoBehaviour:
   MasterInfo: {fileID: 1029153477}
   bottleCount: 0
   maxBottleCount: 20
---- !u!1 &1514348235 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7551862035506210506, guid: b5952025bafa5d449baddc1092e0d56c, type: 3}
-  m_PrefabInstance: {fileID: 4066518168808579882}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1581537477
 PrefabInstance:
   m_ObjectHideFlags: 0
