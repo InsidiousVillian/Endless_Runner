@@ -44,10 +44,7 @@ public class PlayerSpline : MonoBehaviour
             // Optional: Orient the object to face the spline’s tangent
             transform.rotation = Quaternion.LookRotation(tangent, up);
         }
-        if(t >= 1)
-        {
-            
-        }
+        
         
     }
     
