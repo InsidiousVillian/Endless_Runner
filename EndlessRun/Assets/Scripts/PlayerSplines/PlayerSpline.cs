@@ -1,66 +1,53 @@
 using System.Collections.Generic;
 using Unity.Mathematics;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Splines;
 
 public class PlayerSpline : MonoBehaviour
 {
-    private SplineContainer spline;
-    private float splineT = 0f; // Position along spline (0 to 1)
-    private bool isOnSpline = false;
-    private Rigidbody rb;
-    public float moveSpeed = 5f; // Speed along the spline
+    [SerializeField] private SplineContainer spline; // Reference to the Spline Container
+    [SerializeField] private float speed = 1f; // Movement speed along the spline
+    private float t = 0f; // Normalized distance along the spline (0 to 1)
 
-    void Start()
+    private bool isColliding = false;
+
+    private void OnTriggerEnter(Collider other)
     {
+        if (other.CompareTag("SplineTrigger"))
+        {
+            isColliding = true;
+        }
         
     }
-
-    void OnTriggerEnter(Collider other)
-    {
-        // Check if the collided object has a SplineContainer
-        spline = other.GetComponent<SplineContainer>();
-        if (spline != null)
-        {
-            isOnSpline = true;
-           
-            // Optionally, snap player to the nearest point on the spline
-            SplineUtility.GetNearestPoint(spline.Spline, transform.position, out _, out splineT);
-        }
-    }
-
-    //void OnTriggerExit(Collider other)
+    //private void OnTriggerExit(Collider other)
     //{
-    //    if (other.GetComponent<SplineContainer>() == spline)
+    //    if (other.CompareTag("SplineTrigger"))
     //    {
-    //        isOnSpline = false;
-            
-    //        spline = null;
+    //        isColliding = false;
     //    }
     //}
-
     void Update()
     {
-        if (isOnSpline && spline != null)
+        if (isColliding == true)
         {
-            // Get input to move along the spline
-            float input = Input.GetAxis("Horizontal"); // Adjust based on your input
-            splineT += input * moveSpeed * Time.deltaTime / spline.Spline.GetLength();
-            splineT = Mathf.Clamp01(splineT); // Keep t between 0 and 1
+            // Increment the spline parameter based on speed and time
+            t += speed * Time.deltaTime / spline.Spline.GetLength();
+            t = Mathf.Repeat(t, 1f); // Loop back to 0 when reaching the end
 
-            // Evaluate position and tangent on the spline
-            Vector3 position = spline.EvaluatePosition(splineT);
-            Vector3 tangent = spline.EvaluateTangent(splineT);
+            // Evaluate the spline to get the position and direction
+            spline.Evaluate(t, out float3 position, out float3 tangent, out float3 up);
 
-            // Move player to spline position
+            // Move the object to the spline position
             transform.position = position;
 
-            // Optionally, rotate player to face spline direction
-            if (tangent != Vector3.zero)
-            {
-                transform.rotation = Quaternion.LookRotation(tangent);
-            }
+            // Optional: Orient the object to face the spline’s tangent
+            transform.rotation = Quaternion.LookRotation(tangent, up);
         }
+        
+        
     }
+    
+    
 }
 
