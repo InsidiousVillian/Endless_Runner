@@ -4714,15 +4714,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MasterInfo: {fileID: 1029153477}
   bottleCount: 0
-<<<<<<< HEAD
-=======
   maxBottleCount: 20
 --- !u!1 &1514348235 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7551862035506210506, guid: b5952025bafa5d449baddc1092e0d56c, type: 3}
   m_PrefabInstance: {fileID: 4066518168808579882}
   m_PrefabAsset: {fileID: 0}
->>>>>>> NewKian
 --- !u!1001 &1581537477
 PrefabInstance:
   m_ObjectHideFlags: 0
