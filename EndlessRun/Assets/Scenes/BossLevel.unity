@@ -1395,11 +1395,12 @@ Transform:
   m_GameObject: {fileID: 74196689}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.746639, y: -0.00001, z: -61.9608}
+  m_LocalPosition: {x: 12.746639, y: 0.49999, z: -61.9608}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 134620355}
+  - {fileID: 1556521136}
   m_Father: {fileID: 48540503}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &75591105
@@ -1541,8 +1542,8 @@ GameObject:
   - component: {fileID: 93736736}
   - component: {fileID: 93736737}
   m_Layer: 0
-  m_Name: Attachtrigger
-  m_TagString: Untagged
+  m_Name: AttachTrigger
+  m_TagString: SplineTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2470,7 +2471,7 @@ GameObject:
   - component: {fileID: 134620357}
   m_Layer: 0
   m_Name: AttachTrigger
-  m_TagString: Untagged
+  m_TagString: SplineTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2509,8 +2510,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 5, y: 2, z: 1}
+  m_Center: {x: 1, y: 0.5, z: 0}
 --- !u!114 &134620357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2971,8 +2972,8 @@ GameObject:
   - component: {fileID: 160657708}
   - component: {fileID: 160657709}
   m_Layer: 0
-  m_Name: Attachtrigger
-  m_TagString: Untagged
+  m_Name: AttachTrigger
+  m_TagString: SplineTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7926,7 +7927,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e53db6f2f71cb264ea8bbe66c25c616b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  spline: {fileID: 74196690}
+  speed: 5
 --- !u!1001 &526963199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8618,7 +8620,7 @@ GameObject:
   - component: {fileID: 580869290}
   m_Layer: 0
   m_Name: AttachTrigger
-  m_TagString: Untagged
+  m_TagString: SplineTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13824,7 +13826,7 @@ GameObject:
   - component: {fileID: 975085308}
   m_Layer: 0
   m_Name: AttachTrigger
-  m_TagString: Untagged
+  m_TagString: SplineTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15758,7 +15760,7 @@ GameObject:
   - component: {fileID: 1088002874}
   m_Layer: 0
   m_Name: AttachTrigger
-  m_TagString: Untagged
+  m_TagString: SplineTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16919,7 +16921,7 @@ GameObject:
   - component: {fileID: 1197404357}
   m_Layer: 0
   m_Name: AttachTrigger
-  m_TagString: Untagged
+  m_TagString: SplineTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18167,7 +18169,7 @@ GameObject:
   - component: {fileID: 1316966454}
   m_Layer: 0
   m_Name: AttachTrigger
-  m_TagString: Untagged
+  m_TagString: SplineTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21350,8 +21352,8 @@ GameObject:
   - component: {fileID: 1552887975}
   - component: {fileID: 1552887976}
   m_Layer: 0
-  m_Name: Attachtrigger
-  m_TagString: Untagged
+  m_Name: AttachTrigger
+  m_TagString: SplineTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21404,6 +21406,72 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08ec10f651ea7b94d822b7d4498bca34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1556521135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1556521136}
+  - component: {fileID: 1556521138}
+  - component: {fileID: 1556521137}
+  m_Layer: 0
+  m_Name: AttachTrigger (1)
+  m_TagString: SplineTrigger
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1556521136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556521135}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.7071079}
+  m_LocalPosition: {x: -3, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 74196691}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &1556521137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556521135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08ec10f651ea7b94d822b7d4498bca34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1556521138
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556521135}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5, y: 2, z: 1}
+  m_Center: {x: 1, y: 0.5, z: 0}
 --- !u!1001 &1558561708
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22029,7 +22097,7 @@ GameObject:
   - component: {fileID: 1603417686}
   m_Layer: 0
   m_Name: AttachTrigger
-  m_TagString: Untagged
+  m_TagString: SplineTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24641,7 +24709,7 @@ GameObject:
   - component: {fileID: 1785860637}
   m_Layer: 0
   m_Name: AttachTrigger
-  m_TagString: Untagged
+  m_TagString: SplineTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27158,7 +27226,7 @@ GameObject:
   - component: {fileID: 2011442419}
   m_Layer: 0
   m_Name: AttachTrigger
-  m_TagString: Untagged
+  m_TagString: SplineTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27297,8 +27365,8 @@ GameObject:
   - component: {fileID: 2016835324}
   - component: {fileID: 2016835325}
   m_Layer: 0
-  m_Name: Attachtrigger
-  m_TagString: Untagged
+  m_Name: AttachTrigger
+  m_TagString: SplineTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
