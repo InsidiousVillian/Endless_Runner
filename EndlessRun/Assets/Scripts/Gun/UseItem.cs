@@ -6,6 +6,7 @@ public class UseItem : MonoBehaviour
     public GameObject itemToUse;
     public GameObject Bullet;
     public GameObject bulletSpawner;
+    public AudioClip AttackSound;
 
     // Update is called once per frame
     void Update()
@@ -22,6 +23,8 @@ public class UseItem : MonoBehaviour
             Debug.Log("using gun");
             //spawns bullet
             Instantiate(Bullet, bulletSpawner.transform.position, quaternion.identity);
+
+            AudioManager.Instance.PlaySound(AttackSound);
 
             //removes gun from list 
             ItemPickup.guns.RemoveAt(0);

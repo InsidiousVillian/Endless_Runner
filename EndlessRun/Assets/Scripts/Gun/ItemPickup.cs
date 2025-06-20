@@ -8,6 +8,7 @@ public class ItemPickup : MonoBehaviour
     //event declared
     public static event PickupItem OnPickupItem;
 
+    public AudioClip itemPickupSound;
     //gun reference
     public GameObject gun; 
     
@@ -32,11 +33,13 @@ public class ItemPickup : MonoBehaviour
         OnPickupItem -= AddItem;
     }
 
-    public void AddItem(){
+    public void AddItem()
+    {
 
         //add the gun to the list
         guns.Add(gun);
         Destroy(gameObject);
         Debug.Log("Gun picked up");
+        AudioManager.Instance.PlaySound(itemPickupSound);
     }
 }

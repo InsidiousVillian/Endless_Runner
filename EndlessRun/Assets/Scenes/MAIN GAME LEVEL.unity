@@ -365,6 +365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53bc4c1d67f1bda42888abbc24351557, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PickupBottle: {fileID: 8300000, guid: 03da75ae369c0ab4980711c34977d28e, type: 3}
 --- !u!136 &125082246
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -890,7 +891,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sfxSource: {fileID: 275104582}
-  bottlePickup: {fileID: 0}
 --- !u!4 &275104581
 Transform:
   m_ObjectHideFlags: 0
@@ -4821,6 +4821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53bc4c1d67f1bda42888abbc24351557, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PickupBottle: {fileID: 8300000, guid: 03da75ae369c0ab4980711c34977d28e, type: 3}
 --- !u!136 &1511995961
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4963,6 +4964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53bc4c1d67f1bda42888abbc24351557, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PickupBottle: {fileID: 8300000, guid: 03da75ae369c0ab4980711c34977d28e, type: 3}
 --- !u!136 &1581537483
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5140,6 +5142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a178242451f8dc344977a99e56958b93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathSound: {fileID: 8300000, guid: f750b286b79da904fb0de74d3c005a3c, type: 3}
   gameManager: {fileID: 1029153476}
   strafeSpeed: 10
   constantForwardSpeed: 20
@@ -5190,6 +5193,7 @@ MonoBehaviour:
   itemToUse: {fileID: 1875512870411640145, guid: 2920d30fb34f3b3499a57d3ca5b31470, type: 3}
   Bullet: {fileID: 8017619248592842461, guid: 24cecbce00e9b1c44b10cf5b933fc326, type: 3}
   bulletSpawner: {fileID: 141879468}
+  AttackSound: {fileID: 8300000, guid: de4d853a47668fd4eaeeb2cb66cbd4cc, type: 3}
 --- !u!114 &1600860732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5204,6 +5208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HighNoonItem: {fileID: 2518269083992010172, guid: 3b204d8cb5eb25d4180b874d1e70f347, type: 3}
   highNoonEffect: {fileID: 1711744870}
+  HighNoonSoundEffect: {fileID: 8300000, guid: 16fe61ce444340c4e8e825165af60a97, type: 3}
 --- !u!114 &1600860733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6436,6 +6441,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4667638167681343309, guid: 557f2d4e4e7464e4595599cd0b31cf25, type: 3}
+      propertyPath: itemPickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9804cd3e84e288a499a9a81548c53470, type: 3}
     - target: {fileID: 8886102179766774899, guid: 557f2d4e4e7464e4595599cd0b31cf25, type: 3}
       propertyPath: m_Name
       value: Gun
@@ -6839,6 +6848,10 @@ PrefabInstance:
       propertyPath: gun
       value: 
       objectReference: {fileID: 1875512870411640145, guid: 2920d30fb34f3b3499a57d3ca5b31470, type: 3}
+    - target: {fileID: 3867006042672958963, guid: 2920d30fb34f3b3499a57d3ca5b31470, type: 3}
+      propertyPath: itemPickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9804cd3e84e288a499a9a81548c53470, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
     //uses character controller unity function
    private CharacterController controller;
     private Vector3 playerVelocity;
-
+    public AudioClip DeathSound;
     public GameManager gameManager;
 
     private bool isDead;
@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float jumpHeight = 1.0f;
     [SerializeField] float gravityValue = -9.81f;
     public static PlayerMovement instance;  
-    [SerializeField] private GameObject[] obstacles;  // lowercase 'o'
+    [SerializeField] private GameObject[] obstacles;  
 
 
     private void Start()
@@ -66,7 +66,8 @@ public class PlayerMovement : MonoBehaviour
         gameManager.gameOver();
         Debug.Log("Player died!");
         // Destroy the player game object or implement your death logic here
-        Destroy(gameObject);    
+        Destroy(gameObject);
+        AudioManager.Instance.PlaySound(DeathSound);
     }
 }
      

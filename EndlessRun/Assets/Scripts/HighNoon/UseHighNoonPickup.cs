@@ -5,6 +5,7 @@ public class UseHighNoonPickup : MonoBehaviour
 {
     public GameObject HighNoonItem;
     public HighNoonEffect highNoonEffect;
+    public AudioClip HighNoonSoundEffect;
 
     // Update is called once per frame
     void Update()
@@ -19,6 +20,8 @@ public class UseHighNoonPickup : MonoBehaviour
         if(HighNoonPickup.highNoonList.Count > 0){
             HighNoonItem = HighNoonPickup.highNoonList[0];
             Debug.Log("using high noon");
+
+            AudioManager.Instance.PlaySound(HighNoonSoundEffect);
 
             HighNoonPickup.highNoonList.RemoveAt(0);
 

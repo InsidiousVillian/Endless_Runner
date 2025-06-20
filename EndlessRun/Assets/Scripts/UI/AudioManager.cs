@@ -8,12 +8,6 @@ public class AudioManager : MonoBehaviour
 
     #endregion
 
-    // add all your audio clip references here
-    #region Audio clips
-    [SerializeField] AudioClip bottlePickup;
-
-    #endregion
-
     void Awake()
     {
         if (Instance == null)
