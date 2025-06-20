@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "316877944597",
+    "project_id": "endlessrunner-82b6f",
+    "storage_bucket": "endlessrunner-82b6f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316877944597:android:2cca2025a8e1489c585b1c",
+        "android_client_info": {
+          "package_name": "com.Vega.EndlessRunner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwDKW6rznZ7u9Nh4qzB2kGNu3Qnr1upQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
