@@ -17,7 +17,7 @@ public class BulletLevel2 : MonoBehaviour
             Destroy(other.gameObject);
             Destroy(gameObject);
         }
-        else if (other.CompareTag("target"))
+        else if (other.CompareTag("Bottle"))
         {
             Debug.Log("bottle count added here");
         }
