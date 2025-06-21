@@ -6,11 +6,13 @@ public class BulletSpawner : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform shootPoint;
     public float bulletSpeed = 20f;
+    public AudioClip Shooting;
 
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
+            AudioManager.Instance.PlaySound(Shooting);
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             Vector3 direction;
 

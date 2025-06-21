@@ -145,3 +145,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 719fb6b8d66fef54ba5b1647db3a4c92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletSpeed: 100
+  BottleDestory: {fileID: 8300000, guid: 03da75ae369c0ab4980711c34977d28e, type: 3}

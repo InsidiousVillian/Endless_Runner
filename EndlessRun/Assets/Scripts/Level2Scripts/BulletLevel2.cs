@@ -4,6 +4,7 @@ public class BulletLevel2 : MonoBehaviour
 {
      private Vector3 moveDirection;
     public float bulletSpeed = 100f;
+    public AudioClip BottleDestory;
     
     private Vector3 velocity;
 
@@ -24,7 +25,7 @@ public class BulletLevel2 : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Obstacle"))
+        if (other.CompareTag("obstacle"))
         {
             Destroy(other.gameObject);
             Destroy(gameObject);
@@ -32,6 +33,7 @@ public class BulletLevel2 : MonoBehaviour
         else if (other.CompareTag("Bottle"))
         {
             Debug.Log("bottle count added here");
+            AudioManager.Instance.PlaySound(BottleDestory);
         }
     }
 }
