@@ -3,29 +3,33 @@ using UnityEngine;
 
 public class BulletSpawner : MonoBehaviour
 {
-    public float speed = 5f;
     public GameObject bulletPrefab;
-    public float bulletZDepth = 10f;
+    public Transform shootPoint;
+    public float bulletSpeed = 20f;
 
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Mouse is working");
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Vector3 direction;
 
-            Vector3 screenPosition = Input.mousePosition;
+            // Check if ray hits something
+            if (Physics.Raycast(ray, out RaycastHit hit))
+            {
+                direction = (hit.point - shootPoint.position).normalized;
+            }
+            else
+            {
+                // If nothing hit, use ray direction
+                direction = ray.direction.normalized;
+            }
 
-            // Convert screen position to world position
-            Vector3 worldPosition = Camera.main.ScreenToWorldPoint(new Vector3(
-                screenPosition.x, 
-                screenPosition.y, 
-                bulletZDepth // This should be the distance from the camera to where you want the bullet
-            ));
+            // Instantiate bullet
+            GameObject bullet = Instantiate(bulletPrefab, shootPoint.position, Quaternion.identity);
 
-            Debug.Log($"World click position: {worldPosition}");
-
-            // Instantiate bullet at world position
-            Instantiate(bulletPrefab, worldPosition, Quaternion.identity);
-        }   
+            // Set bullet direction
+            bullet.GetComponent<BulletLevel2>().Initialize(direction * bulletSpeed);
+        }
     }
 }

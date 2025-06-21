@@ -840,7 +840,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 77
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -979,9 +979,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77d028cf113b7584896c375fe092fb15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
   bulletPrefab: {fileID: 6263295196326414907, guid: f63f6eab3bdcc2e4e85d76148a397f38, type: 3}
-  bulletZDepth: 10
+  shootPoint: {fileID: 460997474}
+  bulletSpeed: 100
 --- !u!4 &647823725 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5381974400521943760, guid: 6d852ef18a027ce458c26ceccc5e9aa6, type: 3}
@@ -1255,7 +1255,7 @@ Transform:
   m_GameObject: {fileID: 852268407}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 5.8, y: 0.7, z: -23.45}
+  m_LocalPosition: {x: -0.85, y: 0.7, z: -23.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

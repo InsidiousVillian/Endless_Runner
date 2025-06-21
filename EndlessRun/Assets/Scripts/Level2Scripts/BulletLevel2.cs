@@ -4,10 +4,22 @@ public class BulletLevel2 : MonoBehaviour
 {
      private Vector3 moveDirection;
     public float bulletSpeed = 100f;
+    
+    private Vector3 velocity;
 
     void Start()
     {
         Destroy(gameObject, 2f);
+    }
+
+    public void Initialize(Vector3 directionVelocity)
+    {
+        velocity = directionVelocity;
+    }
+
+    void Update()
+    {
+        transform.position += velocity * Time.deltaTime;
     }
 
     void OnTriggerEnter(Collider other)
