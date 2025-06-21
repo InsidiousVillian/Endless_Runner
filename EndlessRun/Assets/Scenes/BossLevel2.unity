@@ -708,6 +708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a178242451f8dc344977a99e56958b93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathSound: {fileID: 0}
   gameManager: {fileID: 0}
   strafeSpeed: 2
   constantForwardSpeed: 20
