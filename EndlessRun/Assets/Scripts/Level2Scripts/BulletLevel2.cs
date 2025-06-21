@@ -7,22 +7,7 @@ public class BulletLevel2 : MonoBehaviour
 
     void Start()
     {
-        Rigidbody rb = GetComponent<Rigidbody>();
-        if (rb != null)
-        {
-            rb.velocity = moveDirection * bulletSpeed;
-        }
-        else
-        {
-            Debug.LogError("No Rigidbody found on Bullet prefab.");
-        }
-
         Destroy(gameObject, 2f);
-    }
-
-    public void SetDirection(Vector3 dir)
-    {
-        moveDirection = dir.normalized;
     }
 
     void OnTriggerEnter(Collider other)
@@ -31,6 +16,10 @@ public class BulletLevel2 : MonoBehaviour
         {
             Destroy(other.gameObject);
             Destroy(gameObject);
+        }
+        else if (other.CompareTag("target"))
+        {
+            Debug.Log("bottle count added here");
         }
     }
 }
