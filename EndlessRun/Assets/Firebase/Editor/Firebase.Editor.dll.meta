@@ -22,18 +22,13 @@ PluginImporter:
         CPU: AnyCPU
     Any:
       enabled: 0
-      settings:
-        Exclude Editor: 0
-        Exclude Linux64: 1
-        Exclude OSXUniversal: 1
-        Exclude Win: 1
-        Exclude Win64: 1
+      settings: {}
     Editor:
       enabled: 1
       settings:
         CPU: AnyCPU
         DefaultValueInitialized: true
-        OS: Windows
+        OS: AnyOS
     Linux64:
       enabled: 0
       settings:
