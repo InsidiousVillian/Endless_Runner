@@ -6,7 +6,13 @@ public class EnemyAI : MonoBehaviour
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     public GameObject cowBoy;
+=======
+    public Transform target;
+    public static EnemyAI Instance;
+   // public GameObject cowBoy;
+>>>>>>> Stashed changes
 =======
     public Transform target;
     public static EnemyAI Instance;
