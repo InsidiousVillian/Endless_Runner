@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FinishPoint : MonoBehaviour
 {
@@ -15,7 +16,8 @@ public class FinishPoint : MonoBehaviour
             if (bottleCount == maxBottleCount)
             {
                 Debug.Log("Scene Change");
-                SceneController.instance.NextLevel();
+                //SceneController.instance.NextLevel();
+                SceneManager.LoadScene("Level2Scene1");
             }
         }
         
