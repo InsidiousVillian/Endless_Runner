@@ -3,6 +3,7 @@ using UnityEngine.Rendering;
 
 public class EnemyAI : MonoBehaviour
 {
+    public static EnemyAI Instance;
     public GameObject cowBoy;
     public Transform player;
     public Transform Spwn;
