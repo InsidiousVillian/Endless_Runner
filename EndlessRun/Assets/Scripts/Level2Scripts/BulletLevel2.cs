@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BulletLevel2 : MonoBehaviour
 {
@@ -21,6 +22,12 @@ public class BulletLevel2 : MonoBehaviour
     void Update()
     {
         transform.position += velocity * Time.deltaTime;
+
+        if (MasterInfo.bottleCount >= 20)
+        {
+            //Kians Scene must be loaded here using SceneManager.LoadScene(Kians Scenes name);
+
+        }
     }
 
     void OnTriggerEnter(Collider other)
@@ -34,6 +41,7 @@ public class BulletLevel2 : MonoBehaviour
         {
             Debug.Log("bottle count added here");
             AudioManager.Instance.PlaySound(BottleDestory);
+            MasterInfo.bottleCount += 1;
         }
     }
 }
