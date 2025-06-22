@@ -25,6 +25,7 @@ public class BulletLevel2 : MonoBehaviour
 
         if (MasterInfo.bottleCount >= 20)
         {
+            Debug.Log("Will load new level");
             //Kians Scene must be loaded here using SceneManager.LoadScene(Kians Scenes name);
 
         }
@@ -41,7 +42,7 @@ public class BulletLevel2 : MonoBehaviour
         {
             Debug.Log("bottle count added here");
             AudioManager.Instance.PlaySound(BottleDestory);
-            MasterInfo.bottleCount += 1;
+            MasterInfoLevel2.BottleCount += 1;
         }
     }
 }

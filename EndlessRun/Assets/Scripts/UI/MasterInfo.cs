@@ -51,7 +51,7 @@ public class MasterInfo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-         if (bottleDisplay && gunDisplay && highNoonDisplay)
+        if (bottleDisplay && gunDisplay && highNoonDisplay)
         {
             bottleDisplay.GetComponent<TMPro.TMP_Text>().text = "Bottles: " + bottleCount;
             gunDisplay.GetComponent<TMPro.TMP_Text>().text = "Guns: " + ItemPickup.guns.Count;
