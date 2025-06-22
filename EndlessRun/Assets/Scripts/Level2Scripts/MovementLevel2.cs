@@ -23,7 +23,8 @@ public class MovementLevel2 : MonoBehaviour
     void Die()
     {
         Debug.Log("Player is dead");
-        Destroy(gameObject);
+        transform.position = transform.position * 0 * Time.deltaTime;
         AudioManager.Instance.PlaySound(DeathSound);
+         FindObjectOfType<GameManagerLevel2>().GameOver();
     }
 }

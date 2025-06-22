@@ -23,7 +23,7 @@ public class BulletLevel2 : MonoBehaviour
     {
         transform.position += velocity * Time.deltaTime;
 
-        if (MasterInfo.bottleCount >= 20)
+        if (MasterInfoLevel2.BottleCount >= 20)
         {
             Debug.Log("Will load new level");
             //Kians Scene must be loaded here using SceneManager.LoadScene(Kians Scenes name);
