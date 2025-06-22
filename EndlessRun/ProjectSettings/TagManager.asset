@@ -10,6 +10,8 @@ TagManager:
   - SplineTrigger
   - Spline
   - Bottle
+  - Sherif
+  - Building
   layers:
   - Default
   - TransparentFX

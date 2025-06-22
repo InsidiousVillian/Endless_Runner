@@ -3,7 +3,13 @@ using UnityEngine.Rendering;
 
 public class EnemyAI : MonoBehaviour
 {
+<<<<<<< Updated upstream
     public GameObject cowBoy;
+=======
+    public Transform target;
+    public static EnemyAI Instance;
+   // public GameObject cowBoy;
+>>>>>>> Stashed changes
     public Transform player;
     public Transform Spwn;
     public float moveSpeed = 3f;
@@ -15,7 +21,7 @@ public class EnemyAI : MonoBehaviour
     void Start()
     {
         
-        transform.LookAt(PlayerMovement.instance.transform);
+        transform.LookAt(target);
         //spawnerTime += Time.deltaTime;
         //if (spawnerTime >= spawnDelay)
         //{
