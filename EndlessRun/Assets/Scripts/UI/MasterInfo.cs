@@ -1,10 +1,12 @@
 using UnityEngine;
+using TMPro;
 
 public class MasterInfo : MonoBehaviour
 {
     [SerializeField] GameObject bottleDisplay;
     [SerializeField] GameObject gunDisplay;
     [SerializeField] GameObject highNoonDisplay;
+    [SerializeField] public TextMeshProUGUI highscore;
     public static int bottleCount = 0;
 
 
@@ -57,5 +59,19 @@ public class MasterInfo : MonoBehaviour
             gunDisplay.GetComponent<TMPro.TMP_Text>().text = "Guns: " + ItemPickup.guns.Count;
             highNoonDisplay.GetComponent<TMPro.TMP_Text>().text = "High Noon: " + HighNoonPickup.highNoonList.Count;
         }
+        HighScore();
+        CheckHighScore();
     }
+    void HighScore()
+    {
+        PlayerPrefs.SetInt("HighScore", bottleCount);
+    }
+    void CheckHighScore()
+    {
+        if (bottleCount > PlayerPrefs.GetInt("HighScore", 0))
+        {
+            PlayerPrefs.SetInt("Highschool", bottleCount);
+        }
+    }
+
 }
