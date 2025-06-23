@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     private static void restart()
     {
         var currentScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(currentScene.name);
+        SceneManager.LoadScene("MAIN GAME LEVEL");
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         //SceneManager.LoadScene(1);
 

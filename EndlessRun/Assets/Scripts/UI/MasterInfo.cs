@@ -63,7 +63,7 @@ public class MasterInfo : MonoBehaviour
             bottleDisplay.GetComponent<TMPro.TMP_Text>().text = "Bottles: " + bottleCount;
             gunDisplay.GetComponent<TMPro.TMP_Text>().text = "Guns: " + ItemPickup.guns.Count;
             highNoonDisplay.GetComponent<TMPro.TMP_Text>().text = "High Noon: " + HighNoonPickup.highNoonList.Count;
-            //bossBottleDisplay.GetComponent<TMPro.TMP_Text>().text = "Bottles:" + BossBottleCount;
+            bossBottleDisplay.GetComponent<TMPro.TMP_Text>().text = "Bottles:" + BossBottleCount;
         }
         HighScore();
         CheckHighScore();
