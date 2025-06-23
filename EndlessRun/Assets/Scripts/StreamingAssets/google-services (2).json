@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "588982956879",
+    "firebase_url": "https://myunityproject-2f1c8-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "myunityproject-2f1c8",
+    "storage_bucket": "myunityproject-2f1c8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588982956879:android:ec45bfd2883881ac3ccb3a",
+        "android_client_info": {
+          "package_name": "com.Vega.unity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2OJobHWxPoopgTRke2MHLUrLh55AngzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
