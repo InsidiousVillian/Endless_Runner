@@ -721,6 +721,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1085,6 +1086,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1306,6 +1308,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1437,6 +1440,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1658,6 +1662,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2078,6 +2083,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2240,6 +2246,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2682,6 +2689,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2760,6 +2768,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2838,6 +2847,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3202,6 +3212,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3529,6 +3540,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5472,6 +5484,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5659,6 +5672,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5737,6 +5751,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6036,6 +6051,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6365,6 +6381,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6520,6 +6537,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6598,6 +6616,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7130,6 +7149,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7457,6 +7477,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7872,6 +7893,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8205,7 +8227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a178242451f8dc344977a99e56958b93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DeathSound: {fileID: 0}
+  DeathSound: {fileID: 8300000, guid: f750b286b79da904fb0de74d3c005a3c, type: 3}
   gameManager: {fileID: 1636638056}
   strafeSpeed: 16
   constantForwardSpeed: 20
@@ -8308,6 +8330,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8586,6 +8609,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9049,6 +9073,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9556,6 +9581,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9634,6 +9660,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10275,6 +10302,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11595,6 +11623,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11816,6 +11845,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12613,6 +12643,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12959,6 +12990,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13180,6 +13212,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13392,6 +13425,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13756,6 +13790,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13834,6 +13869,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13912,6 +13948,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14472,6 +14509,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14629,6 +14667,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14843,6 +14882,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15497,6 +15537,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16176,6 +16217,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16432,6 +16474,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16563,6 +16606,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16641,6 +16685,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16796,6 +16841,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16874,6 +16920,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16983,6 +17030,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17387,6 +17435,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17963,6 +18012,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18041,6 +18091,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18511,6 +18562,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18838,6 +18890,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19369,6 +19422,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20050,6 +20104,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20324,6 +20379,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20900,6 +20956,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21229,6 +21286,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21432,6 +21490,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21510,6 +21569,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21927,6 +21987,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22058,6 +22119,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22632,6 +22694,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23435,6 +23498,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23513,6 +23577,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23591,6 +23656,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24080,6 +24146,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24294,6 +24361,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24515,6 +24583,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25158,6 +25227,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25432,6 +25502,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25796,6 +25867,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26524,6 +26596,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26655,6 +26728,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26964,6 +27038,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27042,6 +27117,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27316,6 +27392,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27864,6 +27941,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28582,6 +28660,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28822,6 +28901,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
