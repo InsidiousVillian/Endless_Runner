@@ -1,16 +1,20 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class MasterInfo : MonoBehaviour
 {
     [SerializeField] GameObject bottleDisplay;
     [SerializeField] GameObject gunDisplay;
     [SerializeField] GameObject highNoonDisplay;
+    [SerializeField] GameObject bossBottleDisplay;
     [SerializeField] public TextMeshProUGUI highscore;
     public static int bottleCount = 0;
 
+    public static int BossBottleCount = 0;
+    
 
-
+    public int MaxBossbottles = 15;
 
     private void Start()
     {
@@ -19,18 +23,18 @@ public class MasterInfo : MonoBehaviour
 
         if (bottleDisplay == null)
         {
-             bottleDisplay = GameObject.Find("BottleCount");
-            
+            bottleDisplay = GameObject.Find("BottleCount");
+
         }
         if (gunDisplay == null)
         {
             gunDisplay = GameObject.Find("gunCount");
-            
+
         }
         if (highNoonDisplay == null)
         {
             highNoonDisplay = GameObject.Find("HighNoonCount");
-            
+
         }
 
 
@@ -49,7 +53,7 @@ public class MasterInfo : MonoBehaviour
         {
             HighNoonPickup.highNoonList.Clear();
         }
-        
+
     }
     // Update is called once per frame
     void Update()
@@ -59,10 +63,18 @@ public class MasterInfo : MonoBehaviour
             bottleDisplay.GetComponent<TMPro.TMP_Text>().text = "Bottles: " + bottleCount;
             gunDisplay.GetComponent<TMPro.TMP_Text>().text = "Guns: " + ItemPickup.guns.Count;
             highNoonDisplay.GetComponent<TMPro.TMP_Text>().text = "High Noon: " + HighNoonPickup.highNoonList.Count;
+            //bossBottleDisplay.GetComponent<TMPro.TMP_Text>().text = "Bottles:" + BossBottleCount;
         }
         HighScore();
         CheckHighScore();
         UpdateHighScore();
+
+        if (BossBottleCount >= MaxBossbottles)
+        {
+            Debug.Log("Scene change");
+            SceneManager.LoadScene("BossLevel2");
+        }
+
     }
     void HighScore()
     {
