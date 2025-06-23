@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 13060746}
   m_Layer: 0
   m_Name: Colliders (45)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -151,7 +151,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -613,7 +613,7 @@ GameObject:
   - component: {fileID: 37564380}
   m_Layer: 0
   m_Name: Colliders
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -648,7 +648,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -721,7 +721,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1086,7 +1085,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1308,7 +1306,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1332,7 +1329,7 @@ GameObject:
   - component: {fileID: 81970263}
   m_Layer: 0
   m_Name: Colliders (49)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1352,7 +1349,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -1440,7 +1437,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1662,7 +1658,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1689,7 +1684,7 @@ GameObject:
   - component: {fileID: 102202132}
   m_Layer: 0
   m_Name: Colliders (10)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1709,7 +1704,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2083,7 +2078,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2138,7 +2132,7 @@ GameObject:
   - component: {fileID: 128777144}
   m_Layer: 0
   m_Name: Colliders (54)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2158,7 +2152,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2246,7 +2240,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2689,7 +2682,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2768,7 +2760,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2847,7 +2838,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3212,7 +3202,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3379,7 +3368,7 @@ GameObject:
   - component: {fileID: 177042460}
   m_Layer: 0
   m_Name: Colliders (77)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3399,7 +3388,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -3432,7 +3421,7 @@ GameObject:
   - component: {fileID: 185012878}
   m_Layer: 0
   m_Name: Colliders (84)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3452,7 +3441,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -3540,7 +3529,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4613,7 +4601,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8702267591608313500, guid: e792b5f59bf315845ab4fbb393f59b18, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8702267591608313500, guid: e792b5f59bf315845ab4fbb393f59b18, type: 3}
       propertyPath: m_TagString
@@ -4626,6 +4614,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8702267591608313500, guid: e792b5f59bf315845ab4fbb393f59b18, type: 3}
       insertIndex: -1
       addedObject: {fileID: 358814227}
+    - targetCorrespondingSourceObject: {fileID: 8702267591608313500, guid: e792b5f59bf315845ab4fbb393f59b18, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 358814231}
   m_SourcePrefab: {fileID: 100100000, guid: e792b5f59bf315845ab4fbb393f59b18, type: 3}
 --- !u!1001 &231631165
 PrefabInstance:
@@ -5139,7 +5130,7 @@ GameObject:
   - component: {fileID: 257932242}
   m_Layer: 0
   m_Name: Colliders (16)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5159,7 +5150,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -5192,7 +5183,7 @@ GameObject:
   - component: {fileID: 278241353}
   m_Layer: 0
   m_Name: Colliders (35)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5212,7 +5203,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -5484,7 +5475,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5672,7 +5662,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5751,7 +5740,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5912,7 +5900,7 @@ GameObject:
   - component: {fileID: 303426794}
   m_Layer: 0
   m_Name: Colliders (46)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5932,7 +5920,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -6051,7 +6039,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6233,6 +6220,29 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!136 &358814231
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358814223}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.57, z: 0}
 --- !u!1 &369193488
 GameObject:
   m_ObjectHideFlags: 0
@@ -6381,7 +6391,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6537,7 +6546,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6616,7 +6624,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7149,7 +7156,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7173,7 +7179,7 @@ GameObject:
   - component: {fileID: 442920452}
   m_Layer: 0
   m_Name: Colliders (14)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7193,7 +7199,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -7226,7 +7232,7 @@ GameObject:
   - component: {fileID: 451717239}
   m_Layer: 0
   m_Name: Colliders (52)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7246,7 +7252,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -7477,7 +7483,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7501,7 +7506,7 @@ GameObject:
   - component: {fileID: 464975453}
   m_Layer: 0
   m_Name: Colliders (53)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7521,7 +7526,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -7893,7 +7898,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7917,7 +7921,7 @@ GameObject:
   - component: {fileID: 514475573}
   m_Layer: 0
   m_Name: Colliders (79)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7937,7 +7941,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -8330,7 +8334,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8609,7 +8612,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8776,7 +8778,7 @@ GameObject:
   - component: {fileID: 574170153}
   m_Layer: 0
   m_Name: Colliders (72)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8796,7 +8798,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -8965,7 +8967,7 @@ GameObject:
   - component: {fileID: 584079719}
   m_Layer: 0
   m_Name: Colliders (81)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8985,7 +8987,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -9073,7 +9075,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9581,7 +9582,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9660,7 +9660,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9827,7 +9826,7 @@ GameObject:
   - component: {fileID: 618918535}
   m_Layer: 0
   m_Name: Colliders (40)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9847,7 +9846,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -9880,7 +9879,7 @@ GameObject:
   - component: {fileID: 636393351}
   m_Layer: 0
   m_Name: Colliders (61)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9900,7 +9899,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -10010,7 +10009,7 @@ GameObject:
   - component: {fileID: 658393474}
   m_Layer: 0
   m_Name: Colliders (27)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10030,7 +10029,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -10063,7 +10062,7 @@ GameObject:
   - component: {fileID: 661106707}
   m_Layer: 0
   m_Name: Colliders (1)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10083,7 +10082,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -10194,7 +10193,7 @@ GameObject:
   - component: {fileID: 673695580}
   m_Layer: 0
   m_Name: Colliders (75)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10214,7 +10213,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -10302,7 +10301,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10326,7 +10324,7 @@ GameObject:
   - component: {fileID: 684380934}
   m_Layer: 0
   m_Name: Colliders (50)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10346,7 +10344,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -10379,7 +10377,7 @@ GameObject:
   - component: {fileID: 686675611}
   m_Layer: 0
   m_Name: Colliders (64)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10399,7 +10397,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -10432,7 +10430,7 @@ GameObject:
   - component: {fileID: 695215381}
   m_Layer: 0
   m_Name: Colliders (7)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10452,7 +10450,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -10485,7 +10483,7 @@ GameObject:
   - component: {fileID: 708182867}
   m_Layer: 0
   m_Name: Colliders (78)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10505,7 +10503,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -10824,7 +10822,7 @@ GameObject:
   - component: {fileID: 721377992}
   m_Layer: 0
   m_Name: Colliders (68)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10844,7 +10842,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -11098,7 +11096,7 @@ GameObject:
   - component: {fileID: 734933251}
   m_Layer: 0
   m_Name: Colliders (15)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11118,7 +11116,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -11294,7 +11292,7 @@ GameObject:
   - component: {fileID: 753401908}
   m_Layer: 0
   m_Name: Colliders (2)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11314,7 +11312,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -11623,7 +11621,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11845,7 +11842,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12643,7 +12639,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12670,7 +12665,7 @@ GameObject:
   - component: {fileID: 848395679}
   m_Layer: 0
   m_Name: Colliders (74)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12690,7 +12685,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -12723,7 +12718,7 @@ GameObject:
   - component: {fileID: 855420426}
   m_Layer: 0
   m_Name: Colliders (83)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12743,7 +12738,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -12776,7 +12771,7 @@ GameObject:
   - component: {fileID: 864728871}
   m_Layer: 0
   m_Name: Colliders (6)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12796,7 +12791,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -12829,7 +12824,7 @@ GameObject:
   - component: {fileID: 868219986}
   m_Layer: 0
   m_Name: Colliders (23)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12849,7 +12844,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -12882,7 +12877,7 @@ GameObject:
   - component: {fileID: 881568859}
   m_Layer: 0
   m_Name: Colliders (58)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12902,7 +12897,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -12990,7 +12985,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13212,7 +13206,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13236,7 +13229,7 @@ GameObject:
   - component: {fileID: 911979099}
   m_Layer: 0
   m_Name: Colliders (39)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13256,7 +13249,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -13425,7 +13418,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13790,12 +13782,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1236011767}
   m_SourcePrefab: {fileID: 100100000, guid: e140f087109e5c341916f699fb154235, type: 3}
 --- !u!4 &940076360 stripped
 Transform:
@@ -13869,7 +13863,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13948,7 +13941,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14258,7 +14250,7 @@ GameObject:
   - component: {fileID: 973085783}
   m_Layer: 0
   m_Name: Colliders (25)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14278,7 +14270,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -14509,7 +14501,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14559,7 +14550,7 @@ GameObject:
   - component: {fileID: 996725545}
   m_Layer: 0
   m_Name: Colliders (30)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14579,7 +14570,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -14667,12 +14658,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2039598129}
   m_SourcePrefab: {fileID: 100100000, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
 --- !u!4 &1001529992 stripped
 Transform:
@@ -14882,7 +14875,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14906,7 +14898,7 @@ GameObject:
   - component: {fileID: 1010585004}
   m_Layer: 0
   m_Name: Colliders (13)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14926,7 +14918,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -15218,7 +15210,7 @@ GameObject:
   - component: {fileID: 1035287357}
   m_Layer: 0
   m_Name: Colliders (70)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15238,7 +15230,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -15429,7 +15421,7 @@ GameObject:
   - component: {fileID: 1036972581}
   m_Layer: 0
   m_Name: Colliders (18)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15449,7 +15441,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -15537,7 +15529,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15894,7 +15885,7 @@ GameObject:
   - component: {fileID: 1054369831}
   m_Layer: 0
   m_Name: Colliders (21)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15914,7 +15905,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -16217,7 +16208,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16241,7 +16231,7 @@ GameObject:
   - component: {fileID: 1081846094}
   m_Layer: 0
   m_Name: Colliders (37)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16261,7 +16251,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -16366,7 +16356,7 @@ GameObject:
   - component: {fileID: 1091317419}
   m_Layer: 0
   m_Name: Colliders (69)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16386,7 +16376,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -16474,7 +16464,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16498,7 +16487,7 @@ GameObject:
   - component: {fileID: 1116872424}
   m_Layer: 0
   m_Name: Colliders (55)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16518,7 +16507,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -16606,7 +16595,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16685,7 +16673,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16841,7 +16828,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16920,7 +16906,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17030,7 +17015,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17435,7 +17419,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17655,7 +17638,7 @@ GameObject:
   - component: {fileID: 1222371563}
   m_Layer: 0
   m_Name: Colliders (51)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17675,7 +17658,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -17708,7 +17691,7 @@ GameObject:
   - component: {fileID: 1228787282}
   m_Layer: 0
   m_Name: Colliders (41)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17728,7 +17711,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -17749,6 +17732,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1014279046}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1236011766 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
+  m_PrefabInstance: {fileID: 940076359}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1236011767
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236011766}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 95.06816, y: 77.40218, z: 376.69107}
+  m_Center: {x: 3.2429576, y: 38.20111, z: 162.34097}
 --- !u!1 &1244361112
 GameObject:
   m_ObjectHideFlags: 0
@@ -17761,7 +17770,7 @@ GameObject:
   - component: {fileID: 1244361113}
   m_Layer: 0
   m_Name: Colliders (20)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17781,7 +17790,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -18012,7 +18021,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18091,7 +18099,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18258,7 +18265,7 @@ GameObject:
   - component: {fileID: 1286942866}
   m_Layer: 0
   m_Name: Colliders (67)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18278,7 +18285,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -18454,7 +18461,7 @@ GameObject:
   - component: {fileID: 1303988911}
   m_Layer: 0
   m_Name: Colliders (63)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18474,7 +18481,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -18562,7 +18569,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18586,7 +18592,7 @@ GameObject:
   - component: {fileID: 1314623039}
   m_Layer: 0
   m_Name: Colliders (43)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18606,7 +18612,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -18639,7 +18645,7 @@ GameObject:
   - component: {fileID: 1324607208}
   m_Layer: 0
   m_Name: Colliders (31)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18659,7 +18665,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -18890,7 +18896,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19422,7 +19427,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19667,7 +19671,7 @@ GameObject:
   - component: {fileID: 1379304283}
   m_Layer: 0
   m_Name: Colliders (71)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19687,7 +19691,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -19863,7 +19867,7 @@ GameObject:
   - component: {fileID: 1398663804}
   m_Layer: 0
   m_Name: Colliders (73)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19883,7 +19887,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -20104,7 +20108,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20271,7 +20274,7 @@ GameObject:
   - component: {fileID: 1439900770}
   m_Layer: 0
   m_Name: Colliders (5)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20291,7 +20294,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -20379,7 +20382,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20403,7 +20405,7 @@ GameObject:
   - component: {fileID: 1456020253}
   m_Layer: 0
   m_Name: Colliders (56)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20423,7 +20425,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -20456,7 +20458,7 @@ GameObject:
   - component: {fileID: 1461931223}
   m_Layer: 0
   m_Name: Colliders (19)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20476,7 +20478,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -20652,7 +20654,7 @@ GameObject:
   - component: {fileID: 1489870561}
   m_Layer: 0
   m_Name: Colliders (66)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20672,7 +20674,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -20705,7 +20707,7 @@ GameObject:
   - component: {fileID: 1521627102}
   m_Layer: 0
   m_Name: Colliders (26)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20725,7 +20727,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -20956,7 +20958,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21286,7 +21287,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21310,7 +21310,7 @@ GameObject:
   - component: {fileID: 1537386660}
   m_Layer: 0
   m_Name: Colliders (11)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21330,7 +21330,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -21490,7 +21490,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21569,7 +21568,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21736,7 +21734,7 @@ GameObject:
   - component: {fileID: 1587609058}
   m_Layer: 0
   m_Name: Colliders (59)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21756,7 +21754,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -21987,7 +21985,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22011,7 +22008,7 @@ GameObject:
   - component: {fileID: 1595320683}
   m_Layer: 0
   m_Name: Colliders (8)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22031,7 +22028,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -22119,7 +22116,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22286,7 +22282,7 @@ GameObject:
   - component: {fileID: 1631270721}
   m_Layer: 0
   m_Name: Colliders (17)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22306,7 +22302,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -22694,7 +22690,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23004,7 +22999,7 @@ GameObject:
   - component: {fileID: 1668402344}
   m_Layer: 0
   m_Name: Colliders (60)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23024,7 +23019,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -23057,7 +23052,7 @@ GameObject:
   - component: {fileID: 1680778051}
   m_Layer: 0
   m_Name: Colliders (57)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23077,7 +23072,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -23231,7 +23226,7 @@ GameObject:
   - component: {fileID: 1687815774}
   m_Layer: 0
   m_Name: Colliders (82)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23251,7 +23246,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -23284,7 +23279,7 @@ GameObject:
   - component: {fileID: 1693496856}
   m_Layer: 0
   m_Name: Colliders (76)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23304,7 +23299,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -23337,7 +23332,7 @@ GameObject:
   - component: {fileID: 1712902995}
   m_Layer: 0
   m_Name: Colliders (24)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23357,7 +23352,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -23390,7 +23385,7 @@ GameObject:
   - component: {fileID: 1729346745}
   m_Layer: 0
   m_Name: Colliders (38)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23410,7 +23405,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -23498,7 +23493,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23577,7 +23571,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23656,7 +23649,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23789,7 +23781,7 @@ GameObject:
   - component: {fileID: 1753261671}
   m_Layer: 0
   m_Name: Colliders (44)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23809,7 +23801,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -23842,7 +23834,7 @@ GameObject:
   - component: {fileID: 1755382316}
   m_Layer: 0
   m_Name: Colliders (4)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23862,7 +23854,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -24038,7 +24030,7 @@ GameObject:
   - component: {fileID: 1780037791}
   m_Layer: 0
   m_Name: Colliders (34)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24058,7 +24050,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -24146,7 +24138,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24361,7 +24352,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24583,7 +24573,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24607,7 +24596,7 @@ GameObject:
   - component: {fileID: 1815697553}
   m_Layer: 0
   m_Name: Colliders (47)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24627,7 +24616,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -24660,7 +24649,7 @@ GameObject:
   - component: {fileID: 1817975815}
   m_Layer: 0
   m_Name: Colliders (32)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24680,7 +24669,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -24930,7 +24919,7 @@ GameObject:
   - component: {fileID: 1856392265}
   m_Layer: 0
   m_Name: Colliders (28)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24950,7 +24939,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -25227,7 +25216,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25394,7 +25382,7 @@ GameObject:
   - component: {fileID: 1882888867}
   m_Layer: 0
   m_Name: Colliders (3)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25414,7 +25402,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -25502,7 +25490,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25867,7 +25854,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25891,7 +25877,7 @@ GameObject:
   - component: {fileID: 1930711481}
   m_Layer: 0
   m_Name: Colliders (42)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25911,7 +25897,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -25944,7 +25930,7 @@ GameObject:
   - component: {fileID: 1943250974}
   m_Layer: 0
   m_Name: Colliders (80)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25964,7 +25950,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -26416,7 +26402,7 @@ GameObject:
   - component: {fileID: 1982453723}
   m_Layer: 0
   m_Name: Colliders (12)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26436,7 +26422,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -26596,7 +26582,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26620,7 +26605,7 @@ GameObject:
   - component: {fileID: 2000016722}
   m_Layer: 0
   m_Name: Colliders (33)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26640,7 +26625,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -26728,7 +26713,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26824,7 +26808,7 @@ GameObject:
   - component: {fileID: 2022998574}
   m_Layer: 0
   m_Name: Colliders (65)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26844,7 +26828,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -26877,7 +26861,7 @@ GameObject:
   - component: {fileID: 2025386301}
   m_Layer: 0
   m_Name: Colliders (22)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26897,7 +26881,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -26930,7 +26914,7 @@ GameObject:
   - component: {fileID: 2033710952}
   m_Layer: 0
   m_Name: Colliders (62)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26950,7 +26934,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -27038,7 +27022,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27117,7 +27100,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27272,6 +27254,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a174c7c4484a77847bfe4aa5616b38ee, type: 3}
   m_PrefabInstance: {fileID: 2038264710}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2039598128 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
+  m_PrefabInstance: {fileID: 1001529991}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2039598129
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039598128}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 67.64222, y: 18.647259, z: 19.184786}
+  m_Center: {x: 1.0394472, y: 8.8236265, z: -2.68365}
 --- !u!1 &2051232311
 GameObject:
   m_ObjectHideFlags: 0
@@ -27284,7 +27292,7 @@ GameObject:
   - component: {fileID: 2051232312}
   m_Layer: 0
   m_Name: Colliders (29)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27304,7 +27312,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -27392,7 +27400,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27416,7 +27423,7 @@ GameObject:
   - component: {fileID: 2066903973}
   m_Layer: 0
   m_Name: Colliders (48)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27436,7 +27443,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -27833,7 +27840,7 @@ GameObject:
   - component: {fileID: 2075591687}
   m_Layer: 0
   m_Name: Colliders (36)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27853,7 +27860,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -27941,7 +27948,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28660,7 +28666,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28684,7 +28689,7 @@ GameObject:
   - component: {fileID: 2107897413}
   m_Layer: 0
   m_Name: Colliders (9)
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28704,7 +28709,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -28901,7 +28906,6 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_TagString
       value: Building
-      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

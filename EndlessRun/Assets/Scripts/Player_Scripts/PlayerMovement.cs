@@ -45,20 +45,20 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(playerVelocity * Time.deltaTime);
     }
     // Handle collision with obstacles using CharacterController's built-in method
-    private void OnControllerColliderHit(ControllerColliderHit hit)
-    {
-        // Check if the collided object is one of the serialized obstacles
-        foreach (GameObject obstacle in obstacles)
-        {
-            //changed to tag instead since previous version was only using the first obstacles set and when obstalces cloned no tags where being used
-            if (hit.gameObject.CompareTag("obstacle") && !isDead)
-            {
-                Die();
-                //break; // Exit the loop once collision is detected with an obstacle
-                gameManager.gameOver();
-            }
-        }
-    }
+    //private void OnControllerColliderHit(ControllerColliderHit hit)
+    //{
+    //    // Check if the collided object is one of the serialized obstacles
+    //    foreach (GameObject obstacle in obstacles)
+    //    {
+    //        //changed to tag instead since previous version was only using the first obstacles set and when obstalces cloned no tags where being used
+    //        if (hit.gameObject.CompareTag("obstacle") && !isDead)
+    //        {
+    //            Die();
+    //            //break; // Exit the loop once collision is detected with an obstacle
+    //            gameManager.gameOver();
+    //        }
+    //    }
+    //}
     // Method to handle player death
     void Die()
     {
@@ -72,6 +72,12 @@ public class PlayerMovement : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Building"))
+        {
+            Die();
+            gameManager.gameOver();
+            
+        }
+        if (other.gameObject.CompareTag("Sherif"))
         {
             Die();
             gameManager.gameOver();

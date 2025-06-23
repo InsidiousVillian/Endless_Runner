@@ -3,7 +3,9 @@ using UnityEngine.Splines;
 
 public class PlayerBossLevelMovement : MonoBehaviour
 {
-    
+    public AudioClip DeathSound;
+    public GameManager gameManager;
+    private bool isDead;
     public SplineContainer splineContainer;
     public float moveSpeed = 0.2f; // Speed of movement
 
@@ -34,6 +36,30 @@ public class PlayerBossLevelMovement : MonoBehaviour
         // Move and rotate object
         transform.position = position;
         transform.rotation = Quaternion.LookRotation(tangent, up);
+    }
+    void Die()
+    {
+        isDead = true;
+        gameManager.gameOver();
+        Debug.Log("Player died!");
+        // Destroy the player game object or implement your death logic here
+        Destroy(gameObject);
+        AudioManager.Instance.PlaySound(DeathSound);
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Building"))
+        {
+            Die();
+            gameManager.gameOver();
+            Debug.Log("Sherif");
+        }
+        if (other.gameObject.CompareTag("Sherif"))
+        {
+            Die();
+            gameManager.gameOver();
+            Debug.Log("Sherif");
+        }
     }
 }
 
