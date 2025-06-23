@@ -49,6 +49,7 @@ public class MasterInfo : MonoBehaviour
         {
             HighNoonPickup.highNoonList.Clear();
         }
+        UpdateHighScore();
     }
     // Update is called once per frame
     void Update()
@@ -61,6 +62,7 @@ public class MasterInfo : MonoBehaviour
         }
         HighScore();
         CheckHighScore();
+        UpdateHighScore();
     }
     void HighScore()
     {
@@ -73,5 +75,8 @@ public class MasterInfo : MonoBehaviour
             PlayerPrefs.SetInt("Highschool", bottleCount);
         }
     }
-
+    void UpdateHighScore()
+    {
+        highscore.text = $"HighScore:{PlayerPrefs.GetInt("HighScore", 0)}";
+    }
 }
