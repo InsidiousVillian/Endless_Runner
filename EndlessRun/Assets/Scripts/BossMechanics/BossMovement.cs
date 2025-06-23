@@ -1,12 +1,21 @@
 using UnityEngine;
+using TMPro;
+using UnityEngine.SceneManagement;
 
 public class BossMovement : MonoBehaviour
 {
     public AudioClip DeathSound;
+    public float countdownTime = 10f;
     public GameManager gameManager;
     private bool isDead;
     public Transform player;
+
+    private int lastSecond = -1;
+    private bool isAlive = true;
     public float moveSpeed;
+
+    public TextMeshProUGUI countdownText;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,6 +30,23 @@ public class BossMovement : MonoBehaviour
                     player.position,
                     moveSpeed * Time.deltaTime
             );
+
+            if (!isAlive) return;
+
+    
+        countdownTime -= Time.deltaTime;
+        if (countdownTime < 0f)
+        {
+            countdownTime = 0f;
+            SceneManager.LoadScene("MAIN GAME LEVEL");
+        }
+
+        int currentSecond = Mathf.FloorToInt(countdownTime);
+        if (currentSecond != lastSecond)
+        {
+            lastSecond = currentSecond;
+            countdownText.text = "Time remaining: " + currentSecond + "s";
+        }
     }
     private void OnTriggerEnter(Collider other)
     {
