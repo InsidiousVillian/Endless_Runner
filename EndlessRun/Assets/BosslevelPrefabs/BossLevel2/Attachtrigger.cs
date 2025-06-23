@@ -38,11 +38,7 @@ public class Attachtrigger : MonoBehaviour
     // Optional: detach when exiting another trigger
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Detachtrigger"))
-        {
-            followSpline = false;
-
-        }
+        followSpline = false;
     }
 
 }
