@@ -17,7 +17,6 @@ public class BossLevelPlayerMovement : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -38,7 +37,7 @@ public class BossLevelPlayerMovement : MonoBehaviour
             // Move the object to the spline position
             transform.position = position;
 
-            // Optional: Orient the object to face the spline’s tangent
+            // Optional: Orient the object to face the splineï¿½s tangent
             transform.rotation = Quaternion.LookRotation(tangent, up);
         }
     }

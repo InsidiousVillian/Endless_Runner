@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class FinishPoint : MonoBehaviour
 {
     public MasterInfo MasterInfo;
-    public  int  bottleCount = 0;
+    public int bottleCount = 0;
     public int maxBottleCount = 20;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void OnTriggerEnter(Collider other)
@@ -18,6 +18,8 @@ public class FinishPoint : MonoBehaviour
                 Debug.Log("Scene Change");
                 //SceneController.instance.NextLevel();
                 SceneManager.LoadScene("Level2Scene1");
+                bottleCount = 20;
+
             }
         }
         

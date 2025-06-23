@@ -9,6 +9,9 @@ public class BulletLevel2 : MonoBehaviour
     
     private Vector3 velocity;
 
+    private FinishPoint finishPoint;
+
+
     void Start()
     {
         Destroy(gameObject, 2f);
@@ -23,9 +26,10 @@ public class BulletLevel2 : MonoBehaviour
     {
         transform.position += velocity * Time.deltaTime;
 
-        if (MasterInfoLevel2.BottleCount >= 20)
+        if (MasterInfoLevel2.BottleCount >= 15)
         {
             Debug.Log("Will load new level");
+            SceneManager.LoadScene("BossLevel");
             //Kians Scene must be loaded here using SceneManager.LoadScene(Kians Scenes name);
 
         }
