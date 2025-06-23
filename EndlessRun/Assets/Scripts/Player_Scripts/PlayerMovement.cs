@@ -69,6 +69,14 @@ public class PlayerMovement : MonoBehaviour
         Destroy(gameObject);
         AudioManager.Instance.PlaySound(DeathSound);
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Building"))
+        {
+            Die();
+            gameManager.gameOver();
+        }
+    }
 }
      
     

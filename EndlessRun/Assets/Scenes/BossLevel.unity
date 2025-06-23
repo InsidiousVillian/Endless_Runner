@@ -718,6 +718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TownBuildings (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1078,6 +1082,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TownBuildings (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1295,6 +1303,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WesternBuilding (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1421,6 +1433,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_Name
       value: SmallerBuildings (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1638,6 +1654,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_Name
       value: SmallBuildings (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2055,6 +2075,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallBuildings (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2212,6 +2236,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_Name
       value: SmallBuildings (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2651,6 +2679,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallerBuildings (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2725,6 +2757,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WesternBuilding (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2798,6 +2834,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_Name
       value: SmallerBuildings (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3159,6 +3199,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TownBuildings (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3481,6 +3525,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_Name
       value: TownBuildings (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5421,6 +5469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WesternBuilding (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5604,6 +5656,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallerBuildings (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5677,6 +5733,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_Name
       value: SmallerBuildings (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5972,6 +6032,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_Name
       value: SmallerBuildings (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6298,6 +6362,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WesternBuilding (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6449,6 +6517,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallerBuildings (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6522,6 +6594,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_Name
       value: SmallerBuildings (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7051,6 +7127,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallBuildings (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7373,6 +7453,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_Name
       value: WesternBuilding (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7785,6 +7869,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TownBuildings (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8005,7 +8093,6 @@ GameObject:
   - component: {fileID: 525520017}
   - component: {fileID: 525520023}
   - component: {fileID: 525520025}
-  - component: {fileID: 525520026}
   - component: {fileID: 525520027}
   m_Layer: 0
   m_Name: Player
@@ -8139,28 +8226,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   splineContainer: {fileID: 829301274}
   moveSpeed: 1
---- !u!95 &525520026
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 525520016}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8cd7ef1927ba9944f853e728a68dc609, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &525520027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8239,6 +8304,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_Name
       value: SmallerBuildings (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8513,6 +8582,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_Name
       value: SmallBuildings (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8972,6 +9045,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_Name
       value: SmallerBuildings (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9476,6 +9553,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TownBuildings (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9549,6 +9630,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_Name
       value: SmallBuildings (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10186,6 +10271,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_Name
       value: TownBuildings (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11503,6 +11592,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TownBuildings
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11719,6 +11812,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_Name
       value: TownBuildings (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12513,6 +12610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallerBuildings (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12855,6 +12956,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TownBuildings (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13072,6 +13177,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TownBuildings (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13279,6 +13388,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_Name
       value: WesternBuilding (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13640,6 +13753,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallBuildings
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13714,6 +13831,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallBuildings (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13787,6 +13908,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_Name
       value: TownBuildings (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14344,6 +14469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TownBuildings (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14496,6 +14625,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_Name
       value: WesternBuilding (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14706,6 +14839,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_Name
       value: TownBuildings (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15356,6 +15493,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_Name
       value: SmallerBuildings (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16032,6 +16173,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TownBuildings (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16284,6 +16429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallerBuildings (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16411,6 +16560,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallerBuildings (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16484,6 +16637,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_Name
       value: SmallBuildings (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16636,6 +16793,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallerBuildings (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16709,6 +16870,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_Name
       value: SmallerBuildings (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16814,6 +16979,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_Name
       value: SmallBuildings (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17214,6 +17383,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_Name
       value: SmallerBuildings (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17787,6 +17960,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TownBuildings (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17860,6 +18037,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_Name
       value: SmallerBuildings (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18327,6 +18508,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallBuildings (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18649,6 +18834,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_Name
       value: SmallerBuildings (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19176,6 +19365,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_Name
       value: SmallBuildings (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19854,6 +20047,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TownBuildings (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20123,6 +20320,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
       propertyPath: m_Name
       value: SmallBuildings (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20696,6 +20897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TownBuildings (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21021,6 +21226,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallerBuildings (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21220,6 +21429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallBuildings (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e140f087109e5c341916f699fb154235, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21293,6 +21506,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_Name
       value: SmallerBuildings (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21707,6 +21924,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TownBuildings (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21833,6 +22054,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_Name
       value: TownBuildings (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22403,6 +22628,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_Name
       value: TownBuildings (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23203,6 +23432,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TownBuildings (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23277,6 +23510,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallerBuildings
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23350,6 +23587,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_Name
       value: SmallerBuildings (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23836,6 +24077,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WesternBuilding (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24045,6 +24290,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_Name
       value: TownBuildings (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24262,6 +24511,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_Name
       value: WesternBuilding (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24902,6 +25155,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TownBuildings (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25171,6 +25428,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_Name
       value: WesternBuilding (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25531,6 +25792,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_Name
       value: TownBuildings (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26256,6 +26521,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WesternBuilding (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26382,6 +26651,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_Name
       value: SmallerBuildings (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26688,6 +26961,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WesternBuilding (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26761,6 +27038,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_Name
       value: WesternBuilding
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27031,6 +27312,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
       propertyPath: m_Name
       value: TownBuildings (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 861b9122606ec274e8a9c01ce531f5d4, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27575,6 +27860,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
       propertyPath: m_Name
       value: WesternBuilding (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28290,6 +28579,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WesternBuilding (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fae6fa5edbe1536489395e47fe6d7c98, type: 3}
+      propertyPath: m_TagString
+      value: Building
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28525,6 +28818,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
       propertyPath: m_Name
       value: SmallerBuildings (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c8c6e6a726decc945b71cdb0ba623227, type: 3}
+      propertyPath: m_TagString
+      value: Building
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -3843,7 +3843,7 @@ MonoBehaviour:
   bottleDisplay: {fileID: 440926998}
   gunDisplay: {fileID: 794426807}
   highNoonDisplay: {fileID: 1928874186}
-  highscore: {fileID: 0}
+  highscore: {fileID: 886969115}
 --- !u!114 &1029153478
 MonoBehaviour:
   m_ObjectHideFlags: 0

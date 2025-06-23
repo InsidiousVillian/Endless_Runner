@@ -49,7 +49,7 @@ public class MasterInfo : MonoBehaviour
         {
             HighNoonPickup.highNoonList.Clear();
         }
-        UpdateHighScore();
+        
     }
     // Update is called once per frame
     void Update()

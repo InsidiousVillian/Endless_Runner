@@ -1,4 +1,6 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Shooter : MonoBehaviour
 {
@@ -33,10 +35,15 @@ public class Shooter : MonoBehaviour
         }
     }
     public float lifeTime = 5f;
+   
 
     void Start()
     {
         Destroy(gameObject, lifeTime);
+        if (lifeTime == 0)
+        {
+            SceneManager.LoadSceneAsync(1);
+        }
     }
 
     void OnTriggerEnter(Collider other)

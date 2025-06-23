@@ -1668,8 +1668,36 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.61, y: 1.69, z: 0.41}
-  m_Center: {x: 0, y: 1.05, z: 0}
+  m_Size: {x: 0.61, y: 2.2681158, z: 0.41}
+  m_Center: {x: 0, y: 0.7609451, z: 0}
+--- !u!114 &478097841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478097834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4102a3f11cac22e4489989dcf6891e42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  health: 20
+--- !u!114 &478097842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478097834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c8db89a94080b743b79fe5ae55d7b29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1405830994}
+  moveSpeed: 20
 --- !u!1 &479936027
 GameObject:
   m_ObjectHideFlags: 0
@@ -4235,6 +4263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3062372591868399147, guid: e792b5f59bf315845ab4fbb393f59b18, type: 3}
+    - {fileID: -1336006788482199544, guid: e792b5f59bf315845ab4fbb393f59b18, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -4247,6 +4276,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8702267591608313500, guid: e792b5f59bf315845ab4fbb393f59b18, type: 3}
       insertIndex: -1
       addedObject: {fileID: 478097840}
+    - targetCorrespondingSourceObject: {fileID: 8702267591608313500, guid: e792b5f59bf315845ab4fbb393f59b18, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 478097841}
+    - targetCorrespondingSourceObject: {fileID: 8702267591608313500, guid: e792b5f59bf315845ab4fbb393f59b18, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 478097842}
   m_SourcePrefab: {fileID: 100100000, guid: e792b5f59bf315845ab4fbb393f59b18, type: 3}
 --- !u!1 &1236112179
 GameObject:
@@ -5016,7 +5051,7 @@ MonoBehaviour:
   target: {fileID: 478097837}
   projectileSpeed: 10
   fireRate: 1
-  lifeTime: 5
+  lifeTime: 20
 --- !u!1001 &1521914992
 PrefabInstance:
   m_ObjectHideFlags: 0
